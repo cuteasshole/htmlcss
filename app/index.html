@@ -20,7 +20,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
     <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
-
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#3372DF">
@@ -41,14 +41,25 @@
         <!--<button class="menu"><img src="images/hamburger.svg" alt="Menu"></button>-->
           <div class="top-area">
             <span class="company-logo"></span>
+            <nav class="top-navigation">
+              <ul>
+                <li class="selected"><a>Home</a></li>
+                <li><a>Products and Services</a></li>
+                <li><a>Pricing</a></li>
+                <li><a>Support</a></li>
+              </ul>
+            </nav>
             <div class="user-area"> 
                 <img src="images/site/rmjAkj4.jpg"> 
                 <span>
-
-                    logged in: 
-                    <br>
-                    User
-
+                    <h5>
+                    Logged in:
+                    </h5>
+                    <h5 class="user-name">
+                        <strong>
+                            User
+                        </strong>
+                    </h5>
                     <i class="dropdown"></i>
                 </span>
             </div>
@@ -60,6 +71,15 @@
         </section>
       </div>
     </header>
+      <nav class="small-navigation">
+          <ul>
+            <li class="selected"><a>Home</a></li>
+            <li><a>Products and Services</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>Support</a></li>
+          </ul>
+      </nav>
+<!--
 
     <nav class="navdrawer-container promote-layer">
       <h4>Navigation</h4>
@@ -70,56 +90,67 @@
         <li><a href="#support">Support</a></li>
       </ul>
     </nav>
+-->
   <main>
-    <div style="text-align: center" class="featured" > 
+    <div class="featured" > 
      
       
       <span>
-        <b>Button thingy</b>
-        Disruptuve Propulsion's MicroZPE Twin Thruster Retrofit on Origin M50 Interceptor
+        <b></b>
+        Disruptuve Propulsion's MicroZPE Twin 
+        Thruster Retrofit on Origin M50 Interceptor
       </span>
     </div>
-    <div class="article">
-      <img src="/images/site/001_assets_citadel.png">
-      <h1>Article title</h1>
-      <h2>Mini summary</h2>
-      <span>Et porta at consectetur parturient ut metus ultrices sapien ac nec porttitor scelerisque ac integer integer nec.Donec imperdiet dignissim a vestibulum elementum adipiscing consectetur orci a suspendisse ipsum a ut vulputate at cras.Quis scelerisque porta lacinia mus senectus mi adipiscing parturient suspendisse a orci malesuada fringilla suspendisse eu dis cubilia dictumst scelerisque.Nec euismod penatibus duis vestibulum sed lacus a ut adipiscing dictumst venenatis erat nisi suspendisse suspendisse a consectetur ullamcorper sed est leo condimentum quisque a tincidunt.Est iaculis cras.</span>
-      <br>
-      <span class="read-more"></span>
-    </div>
-    <div class="article">
-      <img src="/images/site/001_assets_citadel.png">
-      <h1>Article title</h1>
-      <h2>Mini summary</h2>
-      <span>Et porta at consectetur parturient ut metus ultrices sapien ac nec porttitor scelerisque ac integer integer nec.Donec imperdiet dignissim a vestibulum elementum adipiscing consectetur orci a suspendisse ipsum a ut vulputate at cras.Quis scelerisque porta lacinia mus senectus mi adipiscing parturient suspendisse a orci malesuada fringilla suspendisse eu dis cubilia dictumst scelerisque.Nec euismod penatibus duis vestibulum sed lacus a ut adipiscing dictumst venenatis erat nisi suspendisse suspendisse a consectetur ullamcorper sed est leo condimentum quisque a tincidunt.Est iaculis cras.</span>
-      <br>
-      <span class="read-more"></span>
-    </div>
-    <div class="article">
-      <img src="/images/site/001_assets_citadel.png">
-      <h1>Article title</h1>
-      <h2>Mini summary</h2>
-      <span>Et porta at consectetur parturient ut metus ultrices sapien ac nec porttitor scelerisque ac integer integer nec.Donec imperdiet dignissim a vestibulum elementum adipiscing consectetur orci a suspendisse ipsum a ut vulputate at cras.Quis scelerisque porta lacinia mus senectus mi adipiscing parturient suspendisse a orci malesuada fringilla suspendisse eu dis cubilia dictumst scelerisque.Nec euismod penatibus duis vestibulum sed lacus a ut adipiscing dictumst venenatis erat nisi suspendisse suspendisse a consectetur ullamcorper sed est leo condimentum quisque a tincidunt.Est iaculis cras.</span>
-      <br>
-      <span class="read-more"></span>
-    </div>
-
   </main>
-  <advert>
-    <b>Small deal shit</b>
-    <b>Girl deal shit</b>
-  </advert>
+  <articles>
+    <div class="article">
+      <img src="/images/site/001_assets_citadel.png">
+      <h1>Article title</h1>
+      <h2>Mini summary</h2>
+      <span>Et porta at consectetur parturient ut metus ultrices sapien ac nec porttitor scelerisque ac integer integer nec.Donec imperdiet dignissim a vestibulum elementum adipiscing consectetur orci a suspendisse ipsum a ut vulputate at cras.Quis scelerisque porta lacinia mus senectus mi adipiscing parturient suspendisse a orci malesuada fringilla suspendisse eu dis cubilia dictumst scelerisque.Nec euismod penatibus duis vestibulum sed lacus a ut adipiscing dictumst venenatis erat nisi suspendisse suspendisse a consectetur ullamcorper sed est leo condimentum quisque a tincidunt.Est iaculis cras.</span>
+      <span class="read-more"></span>
+    </div>
+    <div class="article">
+      <img src="/images/site/001_assets_citadel.png">
+      <h1>Article title</h1>
+      <h2>Mini summary</h2>
+      <span>Et porta at consectetur parturient ut metus ultrices sapien ac nec porttitor scelerisque ac integer integer nec.Donec imperdiet dignissim a vestibulum elementum adipiscing consectetur orci a suspendisse ipsum a ut vulputate at cras.Quis scelerisque porta lacinia mus senectus mi adipiscing parturient suspendisse a orci malesuada fringilla suspendisse eu dis cubilia dictumst scelerisque.Nec euismod penatibus duis vestibulum sed lacus a ut adipiscing dictumst venenatis erat nisi suspendisse suspendisse a consectetur ullamcorper sed est leo condimentum quisque a tincidunt.Est iaculis cras.</span>
+      <span class="read-more"></span>
+    </div>
+    <div class="article">
+      <img src="/images/site/001_assets_citadel.png">
+      <h1>Article title</h1>
+      <h2>Mini summary</h2>
+      <span>Et porta at consectetur parturient ut metus ultrices sapien ac nec porttitor scelerisque ac integer integer nec.Donec imperdiet dignissim a vestibulum elementum adipiscing consectetur orci a suspendisse ipsum a ut vulputate at cras.Quis scelerisque porta lacinia mus senectus mi adipiscing parturient suspendisse a orci malesuada fringilla suspendisse eu dis cubilia dictumst scelerisque.Nec euismod penatibus duis vestibulum sed lacus a ut adipiscing dictumst venenatis erat nisi suspendisse suspendisse a consectetur ullamcorper sed est leo condimentum quisque a tincidunt.Est iaculis cras.</span>
+      <span class="read-more"></span>
+    </div>    
+  </articles>
+      
+  <advertisements>
+    <img class="first-advert" src="/images/site/001_assets_ad01.png">
+    <img class="second-advert" src="/images/site/001_assets_ad02_portrait.png">
+    <img class="third-advert" src="/images/site/001_assets_ad02_landscape.png">
+  </advertisements>
 
   <footer style="text-align: center">
-    <b>Picture shit</b>
-
-    <div>
-      <h1>Diruptive Propulsion's 2nd Generation Arwell Microgravity Generation Unit</h1>
-      <h2>Zero Spin Higgs Manipulation. 0.65g Sustained Output</h2>
+    <div class="footer-image">
+    
     </div>
-    <div>
-      <b>Icon shit</b>
-      Copyright 3286, All Right Reserved
+    <div class="footer-description">
+      <h1>
+          Diruptive Propulsion's <br> 
+          2nd Generation Arwell <br>
+          Microgravity Generation Unit
+      </h1>
+      <h2>
+          Zero Spin Higgs Manipulation. 0.65g <br> 
+          Sustained Output.
+      </h2>
+    </div>
+    <div class="copyright">
+      <span class="logo"></span>
+      <span class="c-text">Copyright © 3286, All Right Reserved</span>
+      
     </dv>
   </footer>
 

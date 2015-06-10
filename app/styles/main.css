@@ -15,38 +15,38 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 17, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 17, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 html, button, input, select, textarea {
   color: #222; }
 
-/* line 21, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 21, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 body {
   font-size: 1em;
   line-height: 1.4; }
 
-/* line 26, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 26, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 a {
   color: #00e; }
 
-/* line 30, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 30, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 a:visited {
   color: #551a8b; }
 
-/* line 34, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 34, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 a:hover {
   color: #06e; }
 
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
-/* line 42, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 42, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 img {
   vertical-align: middle; }
 
 /*
  * Remove default fieldset styles.
  */
-/* line 50, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 50, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -55,7 +55,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 60, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 60, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 textarea {
   resize: vertical; }
 
@@ -66,22 +66,22 @@ textarea {
    Helper classes
    ========================================================================== */
 /* Prevent callout */
-/* line 91, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 91, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 .nocallout {
   -webkit-touch-callout: none; }
 
-/* line 95, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 95, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 .pressed {
   background-color: rgba(0, 0, 0, 0.7); }
 
 /* A hack for HTML5 contenteditable attribute on mobile */
-/* line 101, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 101, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 textarea[contenteditable] {
   -webkit-appearance: none; }
 
 /* A workaround for S60 3.x and 5.0 devices which do not animated gif images if
    they have been set as display: none */
-/* line 108, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 108, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 .gifhidden {
   position: absolute;
   left: -100%; }
@@ -89,7 +89,7 @@ textarea[contenteditable] {
 /*
  * Image replacement
  */
-/* line 117, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 117, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 .ir {
   background-color: transparent;
   background-repeat: no-repeat;
@@ -100,14 +100,14 @@ textarea[contenteditable] {
   text-align: left;
   text-indent: -999em; }
 
-/* line 128, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 128, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 .ir br {
   display: none; }
 
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 136, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 136, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -115,7 +115,7 @@ textarea[contenteditable] {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 145, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 145, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -130,7 +130,7 @@ textarea[contenteditable] {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 162, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 162, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -142,7 +142,7 @@ textarea[contenteditable] {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 175, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 175, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 .invisible {
   visibility: hidden; }
 
@@ -150,12 +150,12 @@ textarea[contenteditable] {
  * Clearfix helper
  * Used to contain floats: h5bp.com/q
  */
-/* line 185, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 185, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 .clearfix::before, .clearfix::after {
   content: "";
   display: table; }
 
-/* line 190, D:/Responsive/responsive2/app/styles/_h5bp.scss */
+/* line 190, D:/Responsive/responsive2/htmlcss/app/styles/_h5bp.scss */
 .clearfix::after {
   clear: both; }
 
@@ -187,7 +187,7 @@ textarea[contenteditable] {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 9, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 9, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -199,7 +199,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 19, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 19, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 body {
   margin: 0; }
 
@@ -210,7 +210,7 @@ body {
  * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 42, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 42, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
   display: block; }
 
@@ -218,7 +218,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 54, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 54, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 audio, canvas, progress, video {
   display: inline-block;
   /* 1 */
@@ -229,7 +229,7 @@ audio, canvas, progress, video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 64, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 64, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -238,7 +238,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 75, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 75, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 [hidden], template {
   display: none; }
 
@@ -247,14 +247,14 @@ audio:not([controls]) {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 86, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 86, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 a {
   background: transparent; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 95, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 95, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 a:active, a:hover {
   outline: 0; }
 
@@ -263,28 +263,28 @@ a:active, a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 106, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 106, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 115, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 115, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 b, strong {
   font-weight: bold; }
 
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 123, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 123, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 dfn {
   font-style: italic; }
 
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 132, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 132, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
@@ -292,18 +292,18 @@ mark {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 143, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 143, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
-/* line 150, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 150, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 154, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 154, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
@@ -312,14 +312,14 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 165, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 165, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 173, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 173, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -328,14 +328,14 @@ svg:not(:root) {
 /**
  * Remove margin
  */
-/* line 184, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 184, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 figure {
   margin: 0; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 192, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 192, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -344,14 +344,14 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 202, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 202, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 pre {
   overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 213, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 213, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 code, kbd, pre, samp {
   font-family: monospace, monospace;
   font-size: 1em; }
@@ -368,7 +368,7 @@ code, kbd, pre, samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 237, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 237, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 button, input, optgroup, select, textarea {
   color: inherit;
   /* 1 */
@@ -380,7 +380,7 @@ button, input, optgroup, select, textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 247, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 247, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 button {
   overflow: visible; }
 
@@ -390,7 +390,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 259, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 259, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 button, select {
   text-transform: none; }
 
@@ -401,7 +401,7 @@ button, select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 274, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 274, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -411,14 +411,14 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 284, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 284, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 button[disabled], html input[disabled] {
   cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 293, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 293, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -427,7 +427,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 303, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 303, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 input {
   line-height: normal; }
 
@@ -438,7 +438,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 316, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 316, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
@@ -450,7 +450,7 @@ input[type="checkbox"], input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 328, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 328, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
@@ -459,7 +459,7 @@ input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-o
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 338, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 338, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -473,7 +473,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 352, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 352, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
@@ -481,7 +481,7 @@ input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webki
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 361, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 361, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -491,7 +491,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 370, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 370, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -499,7 +499,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 379, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 379, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 optgroup {
   font-weight: bold; }
 
@@ -508,18 +508,18 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 390, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 390, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 396, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 396, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 td, th {
   padding: 0; }
 
 /* Blockquote
    ========================================================================== */
-/* line 403, D:/Responsive/responsive2/app/styles/components/_normalize.scss */
+/* line 403, D:/Responsive/responsive2/htmlcss/app/styles/components/_normalize.scss */
 blockquote {
   margin: 0; }
 
@@ -528,17 +528,17 @@ blockquote {
 * Global
 *
 **/
-/* line 9, D:/Responsive/responsive2/app/styles/components/_global.scss */
+/* line 9, D:/Responsive/responsive2/htmlcss/app/styles/components/_global.scss */
 *, *::before, *::after {
   box-sizing: border-box; }
 
-/* line 15, D:/Responsive/responsive2/app/styles/components/_global.scss */
+/* line 15, D:/Responsive/responsive2/htmlcss/app/styles/components/_global.scss */
 html, body, button {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased; }
 
-/* line 21, D:/Responsive/responsive2/app/styles/components/_global.scss */
+/* line 21, D:/Responsive/responsive2/htmlcss/app/styles/components/_global.scss */
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -547,7 +547,7 @@ body {
   font-weight: 300;
   color: #404040;
   position: relative; }
-  /* line 154, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+  /* line 154, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
   body::after {
     content: '';
     position: absolute;
@@ -560,17 +560,17 @@ body {
     display: none;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 95%, rgba(0, 0, 0, 0.15) 100%);
     background-size: 100% 26px; }
-  /* line 170, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+  /* line 170, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
   body.debug::after {
     display: block;
     pointer-events: none; }
 
-/* line 31, D:/Responsive/responsive2/app/styles/components/_global.scss */
+/* line 31, D:/Responsive/responsive2/htmlcss/app/styles/components/_global.scss */
 pre {
   background: #f0f0f0;
   padding: 13px; }
 
-/* line 36, D:/Responsive/responsive2/app/styles/components/_global.scss */
+/* line 36, D:/Responsive/responsive2/htmlcss/app/styles/components/_global.scss */
 .main-container {
   box-sizing: content-box;
   position: relative;
@@ -589,7 +589,7 @@ pre {
       padding-right: 4.4%;
       max-width: 864px; } }
 
-/* line 40, D:/Responsive/responsive2/app/styles/components/_global.scss */
+/* line 40, D:/Responsive/responsive2/htmlcss/app/styles/components/_global.scss */
 .container {
   box-sizing: content-box;
   position: relative;
@@ -649,7 +649,7 @@ pre {
 @media only screen and (min-width: 800px) {
   .content {
     margin-right: 25.9%; }
-    /* line 60, D:/Responsive/responsive2/app/styles/components/_global.scss */
+    /* line 60, D:/Responsive/responsive2/htmlcss/app/styles/components/_global.scss */
     .content pre {
       margin-right: -25.9%; } }
 
@@ -660,7 +660,7 @@ pre {
   font-weight: normal;
   font-style: normal; }
 
-/* line 13, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 13, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon {
   font-family: 'icons';
   display: inline-block;
@@ -675,99 +675,95 @@ pre {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 30, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
-.icon-bullet::before, ul li::before, ul.list-links a::before, .list-anchor a::before {
-  content: "\e001"; }
-
-/* line 35, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 35, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-chevron-down::before {
   content: '\e002'; }
 
-/* line 40, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 40, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-chevron-large::before {
   content: '\e003'; }
 
-/* line 45, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 45, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-chevron-left::before, .article-nav-link--prev::before {
   content: '\e004'; }
 
-/* line 50, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 50, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-chevron-right::before, .article-nav-link--next::before, ul.list-links.list-links--primary a::before {
   content: '\e005'; }
 
-/* line 55, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 55, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-chevron-up::before {
   content: '\e006'; }
 
-/* line 60, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 60, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-close::before {
   content: '\e007'; }
 
-/* line 65, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 65, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-cog::before {
   content: '\e008'; }
 
-/* line 70, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 70, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-diamond::before {
   content: '\e009'; }
 
-/* line 75, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 75, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-exclamation::before {
   content: '\e00a'; }
 
-/* line 80, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 80, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-google-dev::before {
   content: '\e00b'; }
 
-/* line 85, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 85, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-hash::before {
   content: '\e00c'; }
 
-/* line 90, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 90, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-introduction-to-media::before {
   content: '\e00d'; }
 
-/* line 95, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 95, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-lessons::before {
   content: '\e00e'; }
 
-/* line 100, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 100, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-menu::before {
   content: '\e00f'; }
 
-/* line 105, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 105, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-minus::before {
   content: '\e010'; }
 
-/* line 110, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 110, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-multi-device-layouts::before {
   content: '\e011'; }
 
-/* line 115, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 115, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-performance::before {
   content: '\e012'; }
 
-/* line 120, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 120, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-plus::before {
   content: '\e013'; }
 
-/* line 125, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 125, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-question::before {
   content: '\e014'; }
 
-/* line 130, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 130, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-slash::before {
   content: '\e015'; }
 
-/* line 135, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 135, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-star::before {
   content: '\e016'; }
 
-/* line 140, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 140, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-tick::before {
   content: '\e017'; }
 
-/* line 145, D:/Responsive/responsive2/app/styles/components/_components/_icons.scss */
+/* line 145, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icons.scss */
 .icon-user-input::before {
   content: '\e018'; }
 
@@ -785,13 +781,13 @@ pre {
 * Highlight
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 .highlight-module {
   overflow: hidden;
   margin-top: 52px;
   margin-bottom: 26px;
   position: relative; }
-  /* line 13, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 13, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module::after {
     background: #f0f0f0;
     content: '';
@@ -803,11 +799,11 @@ pre {
     width: 100%;
     right: 0;
     left: 0; }
-  /* line 27, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 27, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module ul, .highlight-module ol {
     padding-left: 0; }
 
-/* line 32, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 32, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 .highlight-module__container {
   box-sizing: content-box;
   padding-left: 5%;
@@ -827,7 +823,7 @@ pre {
       padding-left: 4.4%;
       padding-right: 4.4%;
       max-width: 864px; } }
-  /* line 371, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+  /* line 371, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
   .highlight-module__container::before {
     display: none; }
     @media only screen and (min-width: 620px) {
@@ -843,7 +839,7 @@ pre {
         height: 100%;
         width: 30.3%;
         color: #ffffff; } }
-    /* line 389, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+    /* line 389, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
     .highlight-module--left .highlight-module__container::before {
       right: auto;
       left: 45px; }
@@ -852,7 +848,7 @@ pre {
         top: 134px;
         width: 22.2%;
         font-size: 180px; }
-        /* line 399, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+        /* line 399, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
         .highlight-module--large .highlight-module__container::before {
           font-size: 430px; } }
   @media only screen and (min-width: 620px) {
@@ -862,9 +858,9 @@ pre {
     .highlight-module__container {
       min-height: 208px; } }
 
-/* line 47, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 47, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 .highlight-module__title {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 68px;
   font-weight: 300;
   line-height: 1.1471em;
@@ -874,7 +870,7 @@ pre {
   padding-top: 26px; }
   @media only screen and (min-width: 800px) {
     .highlight-module__title {
-      font-family: 'Roboto Condensed', Helvetica, sans-serif;
+      font-family: 'Open Sans', Helvetica, sans-serif;
       font-size: 110px;
       font-weight: 300;
       line-height: 1.19em;
@@ -883,7 +879,7 @@ pre {
       padding-bottom: 0; } }
   @media only screen and (min-width: 800px) {
     .highlight-module__title {
-      font-family: 'Roboto Condensed', Helvetica, sans-serif;
+      font-family: 'Open Sans', Helvetica, sans-serif;
       font-size: 42px;
       font-weight: 300;
       line-height: 1.2381em;
@@ -892,7 +888,7 @@ pre {
       padding-bottom: 0; }
       @media only screen and (min-width: 800px) {
         .highlight-module__title {
-          font-family: 'Roboto Condensed', Helvetica, sans-serif;
+          font-family: 'Open Sans', Helvetica, sans-serif;
           font-size: 68px;
           font-weight: 300;
           line-height: 1.1471em;
@@ -900,40 +896,40 @@ pre {
           padding-top: 0.3824em;
           padding-bottom: 0; } } }
 
-/* line 56, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 56, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 .highlight-module__cta {
   display: block; }
 
 /*==========  LEARNING  ==========*/
-/* line 62, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 62, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 .highlight-module--learning {
   color: #ffffff; }
-  /* line 65, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 65, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--learning::after {
     background-color: #da2e75; }
-  /* line 69, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 69, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--learning a {
     color: #ffffff;
     text-decoration: underline; }
 
 /*==========  REMEMBER  ==========*/
-/* line 77, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 77, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 .highlight-module--remember {
   color: #ffffff; }
-  /* line 80, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 80, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--remember::after {
     background-color: #09829a; }
-  /* line 84, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 84, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--remember a {
     color: #ffffff;
     text-decoration: underline; }
 
 /*==========  CODE  ==========*/
-/* line 92, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 92, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 .highlight-module--code {
   overflow: visible;
   margin-bottom: 52px; }
-  /* line 96, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 96, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--code pre {
     margin: 0;
     padding-top: 26px;
@@ -942,21 +938,21 @@ pre {
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0; }
-    /* line 105, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+    /* line 105, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
     .highlight-module--code pre span {
       margin: 0;
       padding: 0;
       display: inline-block; }
-  /* line 112, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 112, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--code code {
     margin: 0;
     padding: 0;
     word-spacing: -2px;
     display: block; }
-  /* line 119, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 119, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--code .highlight-module__container {
     padding-bottom: 0; }
-  /* line 123, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 123, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--code .highlight-module__cta {
     position: absolute;
     bottom: -26px; }
@@ -978,18 +974,18 @@ pre {
     left: 0; } }
 
 /*==========  INLINE  ==========*/
-/* line 162, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 162, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 .highlight-module--inline {
   color: #404040;
   overflow: visible;
   margin: 26px 0 0; }
-  /* line 167, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 167, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--inline .highlight-module__container {
     padding-bottom: 0; }
-    /* line 170, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+    /* line 170, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
     .highlight-module--inline .highlight-module__container::before {
       display: none; }
-  /* line 175, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 175, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--inline .highlight-module__content {
     border-color: #e0e0e0;
     border-style: solid;
@@ -998,7 +994,7 @@ pre {
     border-right-width: 0;
     margin-bottom: -2px;
     padding: 0 0 26px; }
-  /* line 185, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 185, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--inline .highlight-module__title {
     font-size: 20px;
     font-weight: 300;
@@ -1008,35 +1004,35 @@ pre {
     padding-bottom: 0; }
     @media only screen and (min-width: 800px) {
       .highlight-module--inline .highlight-module__title {
-        font-family: 'Roboto Condensed', Helvetica, sans-serif;
+        font-family: 'Open Sans', Helvetica, sans-serif;
         font-size: 26px;
         font-weight: 300;
         line-height: 1em;
         /* 26px */
         padding-top: 1em;
         padding-bottom: 0; } }
-  /* line 191, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 191, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--inline.highlight-module--remember .highlight-module__title, .highlight-module--inline.highlight-module--remember li::before {
     color: #09829a; }
-  /* line 198, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 198, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--inline.highlight-module--learning .highlight-module__title, .highlight-module--inline.highlight-module--learning li::before {
     color: #da2e75; }
-  /* line 203, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+  /* line 203, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
   .highlight-module--inline::after {
     display: none !important; }
 
 /*==========  COLORS  ==========*/
-/* line 210, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 210, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code, code .highlight {
   background: transparent; }
 
-/* line 211, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 211, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .c, code .highlight .c {
   color: #999988;
   font-style: italic; }
 
 /* Comment */
-/* line 212, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 212, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .err, code .highlight .err {
   color: #a61717;
   background-color: #e3d2d2; }
@@ -1044,85 +1040,85 @@ div.highlight > pre > code .err, code .highlight .err {
 /* Error */
 /* Keyword */
 /* Operator */
-/* line 215, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 215, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .cm, code .highlight .cm {
   color: #999988;
   font-style: italic; }
 
 /* Comment.Multiline */
-/* line 216, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 216, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .cp, code .highlight .cp {
   color: rgba(0, 0, 0, 0.54); }
 
 /* Comment.Preproc */
-/* line 217, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 217, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .c1, code .highlight .c1 {
   color: #999988;
   font-style: italic; }
 
 /* Comment.Single */
-/* line 218, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 218, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .cs, code .highlight .cs {
   color: rgba(0, 0, 0, 0.54);
   font-style: italic; }
 
 /* Comment.Special */
-/* line 219, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 219, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .gs, code .highlight .gd {
   color: #000000;
   background-color: #ffdddd; }
 
 /* Generic.Deleted */
-/* line 220, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 220, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .gd .x, code .highlight .gd .x {
   color: #000000;
   background-color: #ffaaaa; }
 
 /* Generic.Deleted.Specific */
-/* line 221, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 221, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .ge, code .highlight .ge {
   font-style: italic; }
 
 /* Generic.Emph */
-/* line 222, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 222, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .gr, code .highlight .gr {
   color: #aa0000; }
 
 /* Generic.Error */
-/* line 223, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 223, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .gh, code .highlight .gh {
   color: rgba(0, 0, 0, 0.54); }
 
 /* Generic.Heading */
-/* line 224, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 224, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .gi, code .highlight .gi {
   color: #000000;
   background-color: #ddffdd; }
 
 /* Generic.Inserted */
-/* line 225, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 225, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .gi .x, code .highlight .gi .x {
   color: #000000;
   background-color: #aaffaa; }
 
 /* Generic.Inserted.Specific */
-/* line 226, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 226, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .go, code .highlight .go {
   color: #888888; }
 
 /* Generic.Output */
-/* line 227, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 227, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .gp, code .highlight .gp {
   color: #555555; }
 
 /* Generic.Prompt */
 /* Generic.Strong */
-/* line 229, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 229, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .gu, code .highlight .gu {
   color: #aaaaaa; }
 
 /* Generic.Subheading */
-/* line 230, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 230, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .gt, code .highlight .gt {
   color: #aa0000; }
 
@@ -1131,173 +1127,173 @@ div.highlight > pre > code .gt, code .highlight .gt {
 /* Keyword.Declaration */
 /* Keyword.Pseudo */
 /* Keyword.Reserved */
-/* line 235, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 235, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .kt, code .highlight .kt {
   color: #445588; }
 
 /* Keyword.Type */
-/* line 236, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 236, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .m, code .highlight .m {
   color: #009999; }
 
 /* Literal.Number */
-/* line 237, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 237, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .s, code .highlight .s {
   color: #da2e75; }
 
 /* Literal.String */
-/* line 238, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 238, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .na, code .highlight .na {
   color: #008080; }
 
 /* Name.Attribute */
-/* line 239, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 239, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .nb, code .highlight .nb {
   color: #0086B3; }
 
 /* Name.Builtin */
-/* line 240, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 240, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .nc, code .highlight .nc {
   color: #445588; }
 
 /* Name.Class */
-/* line 241, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 241, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .no, code .highlight .no {
   color: #008080; }
 
 /* Name.Constant */
-/* line 242, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 242, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .ni, code .highlight .ni {
   color: #800080; }
 
 /* Name.Entity */
-/* line 243, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 243, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .ne, code .highlight .ne {
   color: #990000; }
 
 /* Name.Exception */
-/* line 244, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 244, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .nf, code .highlight .nf {
   color: #990000; }
 
 /* Name.Function */
-/* line 245, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 245, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .nn, code .highlight .nn {
   color: #555555; }
 
 /* Name.Namespace */
-/* line 246, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 246, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .nt, code .highlight .nt {
   color: #09829a; }
 
 /* Name.Tag */
-/* line 247, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 247, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .nv, code .highlight .nv {
   color: #008080; }
 
 /* Name.Variable */
 /* Operator.Word */
-/* line 249, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 249, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .w, code .highlight .w {
   color: #bbbbbb; }
 
 /* Text.Whitespace */
-/* line 250, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 250, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .mf, code .highlight .mf {
   color: #009999; }
 
 /* Literal.Number.Float */
-/* line 251, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 251, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .mh, code .highlight .mh {
   color: #009999; }
 
 /* Literal.Number.Hex */
-/* line 252, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 252, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .mi, code .highlight .mi {
   color: #009999; }
 
 /* Literal.Number.Integer */
-/* line 253, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 253, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .mo, code .highlight .mo {
   color: #009999; }
 
 /* Literal.Number.Oct */
-/* line 254, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 254, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .sb, code .highlight .sb {
   color: #da2e75; }
 
 /* Literal.String.Backtick */
-/* line 255, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 255, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .sc, code .highlight .sc {
   color: #da2e75; }
 
 /* Literal.String.Char */
-/* line 256, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 256, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .sd, code .highlight .sd {
   color: #da2e75; }
 
 /* Literal.String.Doc */
-/* line 257, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 257, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .s2, code .highlight .s2 {
   color: #da2e75; }
 
 /* Literal.String.Double */
-/* line 258, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 258, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .se, code .highlight .se {
   color: #da2e75; }
 
 /* Literal.String.Escape */
-/* line 259, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 259, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .sh, code .highlight .sh {
   color: #da2e75; }
 
 /* Literal.String.Heredoc */
-/* line 260, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 260, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .si, code .highlight .si {
   color: #da2e75; }
 
 /* Literal.String.Interpol */
-/* line 261, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 261, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .sx, code .highlight .sx {
   color: #da2e75; }
 
 /* Literal.String.Other */
-/* line 262, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 262, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .sr, code .highlight .sr {
   color: #009926; }
 
 /* Literal.String.Regex */
-/* line 263, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 263, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .s1, code .highlight .s1 {
   color: #da2e75; }
 
 /* Literal.String.Single */
-/* line 264, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 264, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .ss, code .highlight .ss {
   color: #990073; }
 
 /* Literal.String.Symbol */
-/* line 265, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 265, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .bp, code .highlight .bp {
   color: rgba(0, 0, 0, 0.54); }
 
 /* Name.Builtin.Pseudo */
-/* line 266, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 266, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .vc, code .highlight .vc {
   color: #008080; }
 
 /* Name.Variable.Class */
-/* line 267, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 267, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .vg, code .highlight .vg {
   color: #008080; }
 
 /* Name.Variable.Global */
-/* line 268, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 268, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .vi, code .highlight .vi {
   color: #008080; }
 
 /* Name.Variable.Instance */
-/* line 269, D:/Responsive/responsive2/app/styles/components/_modules/_highlight.scss */
+/* line 269, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_highlight.scss */
 div.highlight > pre > code .il, code .highlight .il {
   color: #009999; }
 
@@ -1307,19 +1303,19 @@ div.highlight > pre > code .il, code .highlight .il {
 * Editorial Header
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_editorial-header.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_editorial-header.scss */
 .editorial-header {
   overflow: hidden; }
-  /* line 10, D:/Responsive/responsive2/app/styles/components/_modules/_editorial-header.scss */
+  /* line 10, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_editorial-header.scss */
   .editorial-header .breadcrumbs {
     color: #3372df; }
-    /* line 13, D:/Responsive/responsive2/app/styles/components/_modules/_editorial-header.scss */
+    /* line 13, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_editorial-header.scss */
     .editorial-header .breadcrumbs a {
       color: #3372df; }
   @media only screen and (min-width: 620px) {
     .editorial-header .container {
       position: relative; }
-      /* line 24, D:/Responsive/responsive2/app/styles/components/_modules/_editorial-header.scss */
+      /* line 24, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_editorial-header.scss */
       .editorial-header .container::before {
         content: '\e003';
         font-family: 'icons';
@@ -1332,7 +1328,7 @@ div.highlight > pre > code .il, code .highlight .il {
         color: #f0f0f0;
         margin: 168px -35px 0 0; } }
 
-/* line 41, D:/Responsive/responsive2/app/styles/components/_modules/_editorial-header.scss */
+/* line 41, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_editorial-header.scss */
 .editorial-header__excerpt {
   font-size: 20px;
   font-weight: 300;
@@ -1340,15 +1336,15 @@ div.highlight > pre > code .il, code .highlight .il {
   /* 26px */
   padding-top: 1.3em;
   padding-bottom: 0;
-  font-family: 'Roboto Condensed', Helvetica, sans-serif; }
+  font-family: 'Open Sans', Helvetica, sans-serif; }
 
-/* line 46, D:/Responsive/responsive2/app/styles/components/_modules/_editorial-header.scss */
+/* line 46, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_editorial-header.scss */
 .editorial-header .tag {
   padding-top: 52px; }
 
-/* line 50, D:/Responsive/responsive2/app/styles/components/_modules/_editorial-header.scss */
+/* line 50, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_editorial-header.scss */
 .editorial-header__subtitle {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 42px;
   font-weight: 300;
   line-height: 1.2381em;
@@ -1359,7 +1355,7 @@ div.highlight > pre > code .il, code .highlight .il {
   color: #3372df; }
   @media only screen and (min-width: 800px) {
     .editorial-header__subtitle {
-      font-family: 'Roboto Condensed', Helvetica, sans-serif;
+      font-family: 'Open Sans', Helvetica, sans-serif;
       font-size: 68px;
       font-weight: 300;
       line-height: 1.1471em;
@@ -1371,19 +1367,19 @@ div.highlight > pre > code .il, code .highlight .il {
       padding-top: 0;
       padding-bottom: 26px; } }
 
-/* line 60, D:/Responsive/responsive2/app/styles/components/_modules/_editorial-header.scss */
+/* line 60, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_editorial-header.scss */
 .editorial-header__toc {
   margin-top: 26px; }
-  /* line 63, D:/Responsive/responsive2/app/styles/components/_modules/_editorial-header.scss */
+  /* line 63, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_editorial-header.scss */
   .editorial-header__toc ol {
     padding-top: 0; }
     @media only screen and (min-width: 620px) {
       .editorial-header__toc ol {
         padding-top: 0; } }
 
-/* line 72, D:/Responsive/responsive2/app/styles/components/_modules/_editorial-header.scss */
+/* line 72, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_editorial-header.scss */
 .editorial-header__toc-title {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   border-bottom: 1px solid #e0e0e0;
   margin-bottom: 13px;
   padding-bottom: 13px !important;
@@ -1394,22 +1390,22 @@ div.highlight > pre > code .il, code .highlight .il {
 * Editorial Header
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_summary-header.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_summary-header.scss */
 .summary-header {
   background-color: #3372df;
   padding-bottom: 78px;
   color: #ffffff;
   margin-bottom: 26px;
   box-shadow: inset 0 2px 0 0 #fff; }
-  /* line 14, D:/Responsive/responsive2/app/styles/components/_modules/_summary-header.scss */
+  /* line 14, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_summary-header.scss */
   .summary-header .breadcrumbs__link {
     color: #ffffff; }
 
-/* line 20, D:/Responsive/responsive2/app/styles/components/_modules/_summary-header.scss */
+/* line 20, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_summary-header.scss */
 .summary-header__anchor-list {
   margin-top: 52px; }
 
-/* line 26, D:/Responsive/responsive2/app/styles/components/_modules/_summary-header.scss */
+/* line 26, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_summary-header.scss */
 .summary-header__anchors-item a {
   color: #ffffff; }
 
@@ -1418,23 +1414,23 @@ div.highlight > pre > code .il, code .highlight .il {
 * Related items
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_related-guides.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_related-guides.scss */
 .related-guides {
   margin-top: 78px;
   padding-bottom: 50px;
   border-top: 2px solid #e0e0e0;
   padding-top: 50px; }
 
-/* line 15, D:/Responsive/responsive2/app/styles/components/_modules/_related-guides.scss */
+/* line 15, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_related-guides.scss */
 .related-guides__list .list-links {
   padding-top: 0; }
-/* line 19, D:/Responsive/responsive2/app/styles/components/_modules/_related-guides.scss */
+/* line 19, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_related-guides.scss */
 .related-guides__list a {
   display: block; }
 
-/* line 24, D:/Responsive/responsive2/app/styles/components/_modules/_related-guides.scss */
+/* line 24, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_related-guides.scss */
 .related-guides__title {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 26px;
   font-weight: 300;
   line-height: 1em;
@@ -1444,7 +1440,7 @@ div.highlight > pre > code .il, code .highlight .il {
   padding-top: 0; }
   @media only screen and (min-width: 800px) {
     .related-guides__title {
-      font-family: 'Roboto Condensed', Helvetica, sans-serif;
+      font-family: 'Open Sans', Helvetica, sans-serif;
       font-size: 42px;
       font-weight: 300;
       line-height: 1.2381em;
@@ -1455,10 +1451,10 @@ div.highlight > pre > code .il, code .highlight .il {
     .related-guides__title {
       padding-top: 0; } }
 
-/* line 33, D:/Responsive/responsive2/app/styles/components/_modules/_related-guides.scss */
+/* line 33, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_related-guides.scss */
 .related-guides__main-link {
   text-transform: uppercase; }
-  /* line 36, D:/Responsive/responsive2/app/styles/components/_modules/_related-guides.scss */
+  /* line 36, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_related-guides.scss */
   .related-guides__main-link::before {
     content: '#';
     display: inline-block;
@@ -1469,11 +1465,11 @@ div.highlight > pre > code .il, code .highlight .il {
 * In this guide
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_in-this-guide.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_in-this-guide.scss */
 .in-this-guide {
   margin-top: -78px; }
 
-/* line 11, D:/Responsive/responsive2/app/styles/components/_modules/_in-this-guide.scss */
+/* line 11, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_in-this-guide.scss */
 .in-this-guide__title {
   font-size: 20px;
   font-weight: 300;
@@ -1481,7 +1477,7 @@ div.highlight > pre > code .il, code .highlight .il {
   /* 26px */
   padding-top: 1.3em;
   padding-bottom: 0;
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   margin-bottom: 26px; }
 
 /**
@@ -1489,26 +1485,26 @@ div.highlight > pre > code .il, code .highlight .il {
 * Articles section
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_articles-section.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_articles-section.scss */
 .articles-section {
   background: #f0f0f0;
   text-align: center;
   padding: 26px 0 104px; }
 
-/* line 13, D:/Responsive/responsive2/app/styles/components/_modules/_articles-section.scss */
+/* line 13, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_articles-section.scss */
 .articles-count {
   color: #3372df;
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 400; }
 
-/* line 19, D:/Responsive/responsive2/app/styles/components/_modules/_articles-section.scss */
+/* line 19, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_articles-section.scss */
 .article-section__icon {
   top: -26px; }
   @media only screen and (min-width: 620px) {
     .article-section__icon {
       top: -39px; } }
 
-/* line 1, D:/Responsive/responsive2/app/styles/components/_modules/_guides-section.scss */
+/* line 1, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_guides-section.scss */
 .guides-section {
   background: #f0f0f0;
   text-align: center;
@@ -1519,26 +1515,26 @@ div.highlight > pre > code .il, code .highlight .il {
 * Page header
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_page-header.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_page-header.scss */
 .page-header {
   text-align: center; }
-  /* line 10, D:/Responsive/responsive2/app/styles/components/_modules/_page-header.scss */
+  /* line 10, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_page-header.scss */
   .page-header .breadcrumbs {
     text-align: left;
     color: #3372df; }
-    /* line 14, D:/Responsive/responsive2/app/styles/components/_modules/_page-header.scss */
+    /* line 14, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_page-header.scss */
     .page-header .breadcrumbs a {
       color: #3372df; }
-  /* line 19, D:/Responsive/responsive2/app/styles/components/_modules/_page-header.scss */
+  /* line 19, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_page-header.scss */
   .page-header h3 {
     color: rgba(0, 0, 0, 0.87);
     padding-top: 52px; }
 
-/* line 25, D:/Responsive/responsive2/app/styles/components/_modules/_page-header.scss */
+/* line 25, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_page-header.scss */
 .page-header__excerpt {
   position: relative;
   padding-top: 0; }
-  /* line 29, D:/Responsive/responsive2/app/styles/components/_modules/_page-header.scss */
+  /* line 29, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_page-header.scss */
   .page-header__excerpt:last-child {
     padding-bottom: 78px; }
 
@@ -1547,7 +1543,7 @@ div.highlight > pre > code .il, code .highlight .il {
 * Editorial Header
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_featured-section.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_featured-section.scss */
 .featured-section {
   background: #f0f0f0; }
 
@@ -1556,24 +1552,24 @@ div.highlight > pre > code .il, code .highlight .il {
 * Editorial Header
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_featured-spotlight.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_featured-spotlight.scss */
 .featured-spotlight {
   background: rgba(0, 0, 0, 0.87);
   color: #ffffff;
   overflow: hidden;
   padding-bottom: 77px;
   margin-top: 52px; }
-  /* line 14, D:/Responsive/responsive2/app/styles/components/_modules/_featured-spotlight.scss */
+  /* line 14, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_featured-spotlight.scss */
   .featured-spotlight p {
     padding-bottom: 26px; }
-  /* line 18, D:/Responsive/responsive2/app/styles/components/_modules/_featured-spotlight.scss */
+  /* line 18, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_featured-spotlight.scss */
   .featured-spotlight .cta--primary {
     color: #ffffff; }
-    /* line 21, D:/Responsive/responsive2/app/styles/components/_modules/_featured-spotlight.scss */
+    /* line 21, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_featured-spotlight.scss */
     .featured-spotlight .cta--primary:hover {
       color: #ffffff; }
 
-/* line 27, D:/Responsive/responsive2/app/styles/components/_modules/_featured-spotlight.scss */
+/* line 27, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_featured-spotlight.scss */
 .featured-spotlight__container {
   position: relative; }
 
@@ -1585,7 +1581,7 @@ div.highlight > pre > code .il, code .highlight .il {
     overflow: hidden;
     position: relative;
     width: 100%; } }
-/* line 41, D:/Responsive/responsive2/app/styles/components/_modules/_featured-spotlight.scss */
+/* line 41, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_featured-spotlight.scss */
 .featured-spotlight__img img {
   margin: 0 auto;
   display: block;
@@ -1608,10 +1604,10 @@ div.highlight > pre > code .il, code .highlight .il {
 * Quote
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_quote.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_quote.scss */
 .quote__content {
   position: relative;
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.625em;
   /* 26px */
@@ -1631,19 +1627,19 @@ div.highlight > pre > code .il, code .highlight .il {
     .quote__content {
       padding-top: 52px;
       padding-left: 0; } }
-  /* line 19, D:/Responsive/responsive2/app/styles/components/_modules/_quote.scss */
+  /* line 19, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_quote.scss */
   .quote__content p {
     border-top: 1px solid #e0e0e0;
     text-align: right;
     font-weight: 500;
     margin-top: 12px;
     padding-top: 13px; }
-  /* line 27, D:/Responsive/responsive2/app/styles/components/_modules/_quote.scss */
+  /* line 27, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_quote.scss */
   .quote__content::before {
     content: open-quote;
     display: block;
     position: absolute;
-    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 700;
     color: #f0f0f0;
     top: 90px;
@@ -1660,11 +1656,11 @@ div.highlight > pre > code .il, code .highlight .il {
 * Article nav
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_article-nav.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_article-nav.scss */
 .article-nav {
   overflow: hidden;
   position: relative; }
-  /* line 11, D:/Responsive/responsive2/app/styles/components/_modules/_article-nav.scss */
+  /* line 11, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_article-nav.scss */
   .article-nav::before {
     content: '';
     border-left: 2px solid #e0e0e0;
@@ -1673,17 +1669,17 @@ div.highlight > pre > code .il, code .highlight .il {
     top: 0;
     left: 50%; }
 
-/* line 21, D:/Responsive/responsive2/app/styles/components/_modules/_article-nav.scss */
+/* line 21, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_article-nav.scss */
 .article-nav-link {
   padding: 26px 32px;
   float: left;
   width: 50%;
   position: relative; }
-  /* line 27, D:/Responsive/responsive2/app/styles/components/_modules/_article-nav.scss */
+  /* line 27, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_article-nav.scss */
   .article-nav-link::before {
     position: absolute;
     top: 21px;
-    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 400; }
     @media only screen and (min-width: 620px) {
@@ -1695,15 +1691,15 @@ div.highlight > pre > code .il, code .highlight .il {
         color: #ffffff;
         background: #3372df; } }
 
-/* line 45, D:/Responsive/responsive2/app/styles/components/_modules/_article-nav.scss */
+/* line 45, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_article-nav.scss */
 .article-nav p {
   padding: 0;
   margin: 0; }
 
-/* line 50, D:/Responsive/responsive2/app/styles/components/_modules/_article-nav.scss */
+/* line 50, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_article-nav.scss */
 .article-nav-link--prev {
   text-align: right; }
-  /* line 54, D:/Responsive/responsive2/app/styles/components/_modules/_article-nav.scss */
+  /* line 54, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_article-nav.scss */
   .article-nav-link--prev::before {
     font-family: 'icons';
     left: 32px; }
@@ -1711,7 +1707,7 @@ div.highlight > pre > code .il, code .highlight .il {
     .article-nav-link--prev p {
       padding-left: 52px; } }
 
-/* line 70, D:/Responsive/responsive2/app/styles/components/_modules/_article-nav.scss */
+/* line 70, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_article-nav.scss */
 .article-nav-link--next::before {
   font-family: 'icons';
   right: 32px; }
@@ -1719,7 +1715,7 @@ div.highlight > pre > code .il, code .highlight .il {
   .article-nav-link--next p {
     padding-right: 52px; } }
 
-/* line 83, D:/Responsive/responsive2/app/styles/components/_modules/_article-nav.scss */
+/* line 83, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_article-nav.scss */
 .article-nav-count {
   font-size: 20px;
   font-weight: 300;
@@ -1730,7 +1726,7 @@ div.highlight > pre > code .il, code .highlight .il {
   font-weight: 700; }
   @media only screen and (min-width: 800px) {
     .article-nav-count {
-      font-family: 'Roboto Condensed', Helvetica, sans-serif;
+      font-family: 'Open Sans', Helvetica, sans-serif;
       font-size: 26px;
       font-weight: 300;
       line-height: 1em;
@@ -1749,11 +1745,11 @@ div.highlight > pre > code .il, code .highlight .il {
 @media only screen and (min-width: 620px) {
   .did-you-know ol {
     padding-top: 0 !important; } }
-/* line 15, D:/Responsive/responsive2/app/styles/components/_modules/_did-you-know.scss */
+/* line 15, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_did-you-know.scss */
 .did-you-know .cta--primary {
   margin-top: 26px;
   font-weight: 500; }
-/* line 20, D:/Responsive/responsive2/app/styles/components/_modules/_did-you-know.scss */
+/* line 20, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_did-you-know.scss */
 .did-you-know > .g--half {
   position: relative;
   padding-left: 0; }
@@ -1761,13 +1757,13 @@ div.highlight > pre > code .il, code .highlight .il {
     .did-you-know > .g--half {
       padding-left: 32px; } }
 
-/* line 27, D:/Responsive/responsive2/app/styles/components/_modules/_did-you-know.scss */
+/* line 27, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_did-you-know.scss */
 .did-you-know__symbol {
   padding-bottom: 312px; }
   @media only screen and (min-width: 620px) {
     .did-you-know__symbol {
       padding-bottom: 26px; } }
-  /* line 31, D:/Responsive/responsive2/app/styles/components/_modules/_did-you-know.scss */
+  /* line 31, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_did-you-know.scss */
   .did-you-know__symbol::after {
     content: '\e014';
     color: #3372df;
@@ -1796,14 +1792,14 @@ div.highlight > pre > code .il, code .highlight .il {
 * Table of contents
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_toc.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_toc.scss */
 .toc__title {
   font-size: 16px;
   line-height: 1.625em;
   /* 26px */
   padding-top: 1.625em;
   padding-bottom: 0;
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   padding-bottom: 13px;
   margin-bottom: 12px;
   border-bottom: 1px solid #e0e0e0; }
@@ -1820,17 +1816,17 @@ div.highlight > pre > code .il, code .highlight .il {
       padding-bottom: 13px;
       margin-bottom: 13px; } }
 
-/* line 20, D:/Responsive/responsive2/app/styles/components/_modules/_toc.scss */
+/* line 20, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_toc.scss */
 .toc__list {
   padding-top: 0;
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 12px;
   margin-bottom: 13px; }
-  /* line 27, D:/Responsive/responsive2/app/styles/components/_modules/_toc.scss */
+  /* line 27, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_toc.scss */
   .toc__list a {
     display: block; }
 
-/* line 32, D:/Responsive/responsive2/app/styles/components/_modules/_toc.scss */
+/* line 32, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_toc.scss */
 .toc__sublist {
   padding-top: 0; }
 
@@ -1839,7 +1835,7 @@ div.highlight > pre > code .il, code .highlight .il {
 * Next Lessons
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_modules/_next-lessons.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_next-lessons.scss */
 .next-lessons {
   background: rgba(0, 0, 0, 0.87);
   padding: 26px 26px 52px;
@@ -1849,7 +1845,7 @@ div.highlight > pre > code .il, code .highlight .il {
   @media only screen and (min-width: 620px) {
     .next-lessons h3 i {
       display: none; } }
-  /* line 23, D:/Responsive/responsive2/app/styles/components/_modules/_next-lessons.scss */
+  /* line 23, D:/Responsive/responsive2/htmlcss/app/styles/components/_modules/_next-lessons.scss */
   .next-lessons::before, .next-lessons::after {
     color: rgba(255, 255, 255, 0.5);
     position: absolute;
@@ -1860,7 +1856,7 @@ div.highlight > pre > code .il, code .highlight .il {
   @media only screen and (min-width: 620px) {
     .next-lessons::before {
       content: attr(data-current-lesson);
-      font-family: 'Roboto Condensed', Helvetica, sans-serif;
+      font-family: 'Open Sans', Helvetica, sans-serif;
       font-size: 16px;
       font-weight: 400;
       line-height: 1;
@@ -1896,138 +1892,138 @@ div.highlight > pre > code .il, code .highlight .il {
 *
 **/
 @media only screen and (min-width: 620px) and (max-width: 799px) {
-  /* line 11, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 11, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-medium--1 {
     float: left;
     margin-right: 4.5%;
     width: 30.3%; }
-  /* line 18, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 18, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-medium--push-1 {
     margin-left: 34.8%; }
-  /* line 21, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 21, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-medium--pull-1 {
     margin-right: 34.8%; }
-  /* line 11, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 11, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-medium--2 {
     float: left;
     margin-right: 4.5%;
     width: 65.1%; }
-  /* line 18, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 18, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-medium--push-2 {
     margin-left: 69.6%; }
-  /* line 21, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 21, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-medium--pull-2 {
     margin-right: 69.6%; }
-  /* line 11, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 11, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-medium--3 {
     float: left;
     margin-right: 4.5%;
     width: 99.9%;
     margin-right: 0; }
-  /* line 27, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 27, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-medium--full {
     float: left;
     margin-right: 4.5%;
     margin-right: 0;
     width: 100%; }
-  /* line 33, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 33, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g--third {
     float: left;
     margin-right: 4.5%;
     width: 30.3%; }
-  /* line 39, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 39, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g--half, .g-medium--half {
     float: left;
     margin-right: 4.5%;
     width: 47.75%; }
-  /* line 44, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 44, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-medium--last {
     margin-right: 0; }
-  /* line 45, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 45, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-medium--last + .g-medium--half {
     clear: left; }
-  /* line 47, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 47, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g--pull-half {
     margin-right: 52.25%; } }
 
 @media only screen and (min-width: 800px) {
-  /* line 54, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 54, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-wide--1 {
     float: left;
     margin-right: 3.7%;
     width: 22.2%; }
-  /* line 61, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 61, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-wide--push-1 {
     margin-left: 25.9%; }
-  /* line 64, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 64, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-wide--pull-1 {
     margin-right: 25.9%; }
-  /* line 54, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 54, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-wide--2 {
     float: left;
     margin-right: 3.7%;
     width: 48.1%; }
-  /* line 61, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 61, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-wide--push-2 {
     margin-left: 51.8%; }
-  /* line 64, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 64, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-wide--pull-2 {
     margin-right: 51.8%; }
-  /* line 54, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 54, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-wide--3 {
     float: left;
     margin-right: 3.7%;
     width: 74%; }
-  /* line 61, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 61, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-wide--push-3 {
     margin-left: 77.7%; }
-  /* line 64, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 64, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-wide--pull-3 {
     margin-right: 77.7%; }
-  /* line 54, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 54, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-wide--4 {
     float: left;
     margin-right: 3.7%;
     width: 99.9%;
     margin-right: 0; }
-  /* line 70, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 70, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-wide--last {
     margin-right: 0; }
-  /* line 72, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 72, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g-wide--full {
     float: left;
     margin-right: 3.7%;
     margin-right: 0;
     width: 100%; }
-  /* line 78, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 78, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g--third {
     float: left;
     margin-right: 3.7%;
     width: 30.8%; }
-  /* line 84, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 84, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g--half, .g-wide--half {
     float: left;
     margin-right: 3.7%;
     width: 48.15%; }
-  /* line 89, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 89, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .g--pull-half {
     margin-right: 51.85%; } }
 
-/* line 99, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+/* line 99, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
 .g--last {
   margin-right: 0; }
 
-/* line 103, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+/* line 103, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
 .g--centered {
   float: none;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 112, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+/* line 112, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
 .grid-overlay {
   display: none;
   pointer-events: none; }
-  /* line 118, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+  /* line 118, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
   .debug .grid-overlay {
     box-sizing: content-box;
     position: relative;
@@ -2052,12 +2048,12 @@ div.highlight > pre > code .il, code .highlight .il {
         padding-left: 4.4%;
         padding-right: 4.4%;
         max-width: 864px; } }
-    /* line 129, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+    /* line 129, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
     .debug .grid-overlay [class*="g-"] {
       height: 100%;
       background-color: rgba(89, 89, 89, 0.2); }
     @media only screen and (min-width: 620px) and (max-width: 799px) {
-      /* line 135, D:/Responsive/responsive2/app/styles/components/_components/_grid.scss */
+      /* line 135, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_grid.scss */
       .debug .grid-overlay .g-wide--last {
         display: none; } }
     @media only screen and (max-width: 619px) {
@@ -2069,11 +2065,11 @@ div.highlight > pre > code .il, code .highlight .il {
 * Typography
 *
 **/
-/* line 9, D:/Responsive/responsive2/app/styles/components/_components/_typography.scss */
+/* line 9, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_typography.scss */
 h1, h2, h3, h4, h5, p {
   margin: 0; }
 
-/* line 15, D:/Responsive/responsive2/app/styles/components/_components/_typography.scss */
+/* line 15, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_typography.scss */
 .small, small {
   font-size: 13px;
   line-height: 2em;
@@ -2081,7 +2077,7 @@ h1, h2, h3, h4, h5, p {
   padding-top: 2em;
   padding-bottom: 0; }
 
-/* line 22, D:/Responsive/responsive2/app/styles/components/_components/_typography.scss */
+/* line 22, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_typography.scss */
 .base, p, ul, ol {
   font-size: 16px;
   line-height: 1.625em;
@@ -2089,7 +2085,7 @@ h1, h2, h3, h4, h5, p {
   padding-top: 1.625em;
   padding-bottom: 0; }
 
-/* line 27, D:/Responsive/responsive2/app/styles/components/_components/_typography.scss */
+/* line 27, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_typography.scss */
 .medium, h4 {
   font-size: 16px;
   line-height: 1.625em;
@@ -2105,7 +2101,7 @@ h1, h2, h3, h4, h5, p {
       padding-top: 1.3em;
       padding-bottom: 0; } }
 
-/* line 32, D:/Responsive/responsive2/app/styles/components/_components/_typography.scss */
+/* line 32, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_typography.scss */
 .large, h3 {
   font-size: 20px;
   font-weight: 300;
@@ -2115,7 +2111,7 @@ h1, h2, h3, h4, h5, p {
   padding-bottom: 0; }
   @media only screen and (min-width: 800px) {
     .large, h3 {
-      font-family: 'Roboto Condensed', Helvetica, sans-serif;
+      font-family: 'Open Sans', Helvetica, sans-serif;
       font-size: 26px;
       font-weight: 300;
       line-height: 1em;
@@ -2123,9 +2119,9 @@ h1, h2, h3, h4, h5, p {
       padding-top: 1em;
       padding-bottom: 0; } }
 
-/* line 36, D:/Responsive/responsive2/app/styles/components/_components/_typography.scss */
+/* line 36, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_typography.scss */
 .xlarge, h2 {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 26px;
   font-weight: 300;
   line-height: 1em;
@@ -2134,7 +2130,7 @@ h1, h2, h3, h4, h5, p {
   padding-bottom: 0; }
   @media only screen and (min-width: 800px) {
     .xlarge, h2 {
-      font-family: 'Roboto Condensed', Helvetica, sans-serif;
+      font-family: 'Open Sans', Helvetica, sans-serif;
       font-size: 42px;
       font-weight: 300;
       line-height: 1.2381em;
@@ -2142,9 +2138,9 @@ h1, h2, h3, h4, h5, p {
       padding-top: 0.619em;
       padding-bottom: 0; } }
 
-/* line 41, D:/Responsive/responsive2/app/styles/components/_components/_typography.scss */
+/* line 41, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_typography.scss */
 .xxlarge, h1 {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 42px;
   font-weight: 300;
   line-height: 1.2381em;
@@ -2153,7 +2149,7 @@ h1, h2, h3, h4, h5, p {
   padding-bottom: 0; }
   @media only screen and (min-width: 800px) {
     .xxlarge, h1 {
-      font-family: 'Roboto Condensed', Helvetica, sans-serif;
+      font-family: 'Open Sans', Helvetica, sans-serif;
       font-size: 68px;
       font-weight: 300;
       line-height: 1.1471em;
@@ -2161,9 +2157,9 @@ h1, h2, h3, h4, h5, p {
       padding-top: 0.3824em;
       padding-bottom: 0; } }
 
-/* line 45, D:/Responsive/responsive2/app/styles/components/_components/_typography.scss */
+/* line 45, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_typography.scss */
 .huge {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 68px;
   font-weight: 300;
   line-height: 1.1471em;
@@ -2172,7 +2168,7 @@ h1, h2, h3, h4, h5, p {
   padding-bottom: 0; }
   @media only screen and (min-width: 800px) {
     .huge {
-      font-family: 'Roboto Condensed', Helvetica, sans-serif;
+      font-family: 'Open Sans', Helvetica, sans-serif;
       font-size: 110px;
       font-weight: 300;
       line-height: 1.19em;
@@ -2180,7 +2176,7 @@ h1, h2, h3, h4, h5, p {
       padding-top: 0.2364em;
       padding-bottom: 0; } }
 
-/* line 50, D:/Responsive/responsive2/app/styles/components/_components/_typography.scss */
+/* line 50, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_typography.scss */
 li > p {
   padding-top: 0; }
 
@@ -2189,7 +2185,7 @@ li > p {
 * Button
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_components/_button.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_button.scss */
 .button, .button--primary, .button--secondary, .button--secondary-variation {
   display: inline-block;
   padding: 12px 32px;
@@ -2197,31 +2193,31 @@ li > p {
   margin-top: 13px;
   min-height: 26px;
   text-align: center;
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 600;
   text-decoration: none;
   outline: 0;
   transition: none; }
-  /* line 24, D:/Responsive/responsive2/app/styles/components/_components/_button.scss */
+  /* line 24, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_button.scss */
   .button:hover, .button--primary:hover, .button--secondary:hover, .button--secondary-variation:hover {
     background: #4d4d4d;
     color: #ffffff;
     border: 1px solid #4d4d4d;
     text-decoration: none; }
 
-/* line 43, D:/Responsive/responsive2/app/styles/components/_components/_button.scss */
+/* line 43, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_button.scss */
 .button--primary {
   background: #4285f4;
   color: #ffffff;
   border: 1px solid #1266f1; }
 
-/* line 48, D:/Responsive/responsive2/app/styles/components/_components/_button.scss */
+/* line 48, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_button.scss */
 .button--secondary {
   background: #ffffff;
   color: #3372df;
   border: 1px solid #e6e6e6; }
 
-/* line 53, D:/Responsive/responsive2/app/styles/components/_components/_button.scss */
+/* line 53, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_button.scss */
 .button--secondary-variation {
   background: #ffffff;
   color: #3372df;
@@ -2233,7 +2229,7 @@ li > p {
 * List
 *
 **/
-/* line 8, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 8, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 ul, ol {
   list-style: none;
   margin: 0; }
@@ -2241,11 +2237,11 @@ ul, ol {
     ul, ol {
       padding-left: 0; } }
 
-/* line 17, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 17, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 ul li {
   position: relative;
   padding-left: 16px; }
-  /* line 309, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+  /* line 309, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
   ul li::before {
     font-family: 'icons';
     font-size: 13px;
@@ -2255,18 +2251,18 @@ ul li {
     top: 0;
     left: 0;
     line-height: 26px; }
-  /* line 22, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 22, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   ul li::before {
     font-size: 4px; }
 
-/* line 27, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 27, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 ol {
   counter-reset: list; }
-  /* line 29, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 29, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   ol > li {
     position: relative;
     padding-left: 32px; }
-    /* line 331, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+    /* line 331, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
     ol > li::before {
       counter-increment: list;
       content: '0' counter(list);
@@ -2275,22 +2271,22 @@ ol {
       display: inline-block;
       position: absolute;
       left: 0; }
-    /* line 38, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+    /* line 38, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
     ol > li:nth-child(10n) ~ li::before, ol > li:nth-child(10n)::before {
       content: counter(list); }
 
-/* line 46, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 46, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 ul ol, ol ul {
   padding-top: 0; }
 
 /*==========  LIST LINKS  ==========*/
-/* line 54, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 54, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 ul.list-links li::before {
   display: none; }
-/* line 57, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 57, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 ul.list-links a {
   font-weight: 400; }
-  /* line 309, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+  /* line 309, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
   ul.list-links a::before {
     font-family: 'icons';
     font-size: 13px;
@@ -2300,16 +2296,16 @@ ul.list-links a {
     top: 0;
     left: 0;
     line-height: 26px; }
-  /* line 60, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 60, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   ul.list-links a::before {
     font-size: 4px; }
-/* line 68, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 68, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 ul.list-links.list-links--primary a {
   font-weight: 400;
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   line-height: 1;
   text-decoration: none; }
-  /* line 309, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+  /* line 309, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
   ul.list-links.list-links--primary a::before {
     font-family: 'icons';
     font-size: 13px;
@@ -2320,14 +2316,14 @@ ul.list-links.list-links--primary a {
     left: 0;
     line-height: 26px; }
 
-/* line 80, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 80, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 ol.list-links li::before {
   display: none; }
-/* line 84, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 84, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 ol.list-links li a {
   display: inline-block;
   font-weight: 300; }
-  /* line 331, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+  /* line 331, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
   ol.list-links li a::before {
     counter-increment: list;
     content: '0' counter(list);
@@ -2336,14 +2332,14 @@ ol.list-links li a {
     display: inline-block;
     position: absolute;
     left: 0; }
-/* line 91, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 91, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 ol.list-links li:nth-child(10n) ~ li a::before, ol.list-links li:nth-child(10n) a::before {
   content: counter(list); }
-/* line 97, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 97, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 ol.list-links.list-links--secondary a::before {
   display: none; }
 
-/* line 103, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 103, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 .list-links--secondary {
   font-size: 16px;
   line-height: 1.625em;
@@ -2351,15 +2347,15 @@ ol.list-links.list-links--secondary a::before {
   padding-top: 1.625em;
   padding-bottom: 0;
   padding-left: 0; }
-  /* line 107, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 107, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .list-links--secondary li {
     padding-left: 0; }
 
 /*==========  ANCHOR LIST  ==========*/
-/* line 114, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 114, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 .list-anchor {
   padding-left: 0; }
-  /* line 117, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 117, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .list-anchor li {
     font-size: 16px;
     line-height: 1.625em;
@@ -2368,15 +2364,15 @@ ol.list-links.list-links--secondary a::before {
     padding-bottom: 0;
     padding-top: 0;
     padding-left: 0; }
-    /* line 122, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+    /* line 122, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
     .list-anchor li::before {
       display: none; }
-  /* line 128, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 128, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .list-anchor a {
     line-height: 1;
     display: inline-block;
     padding-left: 16px; }
-    /* line 309, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+    /* line 309, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
     .list-anchor a::before {
       font-family: 'icons';
       font-size: 13px;
@@ -2386,7 +2382,7 @@ ol.list-links.list-links--secondary a::before {
       top: 0;
       left: 0;
       line-height: 26px; }
-    /* line 134, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+    /* line 134, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
     .list-anchor a::before {
       font-size: 4px; }
 
@@ -2401,18 +2397,18 @@ ol.list-links.list-links--secondary a::before {
     padding-top: 0; } }
 
 /*==========  CENTERED LIST  ==========*/
-/* line 154, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 154, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 .list-centered {
   text-align: center;
   padding-left: 0; }
 
 /*==========  FEATURED LIST  ==========*/
-/* line 161, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 161, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 .featured-list {
   padding-top: 78px;
   padding-bottom: 78px; }
 
-/* line 166, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 166, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 .featured-list__item {
   background: #ffffff;
   padding-left: 0;
@@ -2423,14 +2419,14 @@ ol.list-links.list-links--secondary a::before {
     .featured-list__item {
       min-height: 338px;
       padding: 52px 32px; } }
-  /* line 179, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 179, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .featured-list__item:first-child {
     margin-top: 0; }
-  /* line 183, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 183, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .featured-list__item p {
     margin-bottom: 26px; }
 
-/* line 188, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 188, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 .featured-list__img-wrapper {
   display: none;
   position: relative;
@@ -2450,7 +2446,7 @@ ol.list-links.list-links--secondary a::before {
     overflow: hidden;
     position: absolute;
     width: 100%; } }
-/* line 212, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 212, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 .featured-list__img img {
   display: block;
   margin: 0 auto;
@@ -2465,9 +2461,9 @@ ol.list-links.list-links--secondary a::before {
       left: 0; } }
 
 /*==========  RELATED GUIDES LIST  ==========*/
-/* line 229, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 229, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 .related-guides-list {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   padding-top: 0;
   padding-left: 0; }
   @media only screen and (min-width: 620px) {
@@ -2476,18 +2472,18 @@ ol.list-links.list-links--secondary a::before {
   @media only screen and (min-width: 800px) {
     .related-guides-list {
       padding-top: 0; } }
-  /* line 242, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 242, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .related-guides-list p {
     padding-top: 0; }
-  /* line 246, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 246, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .related-guides-list .tag {
     padding-top: 0; }
-  /* line 250, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 250, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .related-guides-list li {
     padding-top: 26px;
     padding-bottom: 25px;
     border-bottom: 1px solid #e0e0e0; }
-    /* line 255, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+    /* line 255, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
     .related-guides-list li:last-child {
       border-color: transparent; }
     @media only screen and (min-width: 620px) {
@@ -2497,28 +2493,28 @@ ol.list-links.list-links--secondary a::before {
         border-color: transparent; } }
 
 /*==========  LIST RESET  ==========*/
-/* line 269, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 269, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 .list--reset {
   padding-left: 0; }
-  /* line 272, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 272, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .list--reset li {
     padding-left: 0; }
-  /* line 277, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 277, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .list--reset.list-links a::before, .list--reset li::before {
     display: none !important; }
 
 /*==========  LESSONS  ==========*/
-/* line 284, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 284, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 .list-lessons {
   padding-left: 0; }
-  /* line 287, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 287, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .list-lessons a {
     color: #ffffff; }
-  /* line 293, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 293, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .list-lessons .current, .list-lessons .current a {
     text-decoration: none;
     cursor: default; }
-  /* line 298, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 298, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .list-lessons .current .icon {
     font-size: 13px;
     display: inline-block;
@@ -2530,13 +2526,13 @@ ol.list-links.list-links--secondary a::before {
     margin-left: 7px; }
 
 /*==========  GUIDES INTO - used on homepage  ==========*/
-/* line 314, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+/* line 314, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
 .list-guides-intro {
   margin-bottom: 52px; }
   @media only screen and (max-width: 619px) {
     .list-guides-intro {
       padding-top: 52px; } }
-  /* line 321, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+  /* line 321, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
   .list-guides-intro li {
     border-bottom: 1px solid #e0e0e0;
     padding-bottom: 51px;
@@ -2545,7 +2541,7 @@ ol.list-links.list-links--secondary a::before {
       .list-guides-intro li {
         border-color: transparent;
         padding-bottom: 0; } }
-    /* line 331, D:/Responsive/responsive2/app/styles/components/_components/_list.scss */
+    /* line 331, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_list.scss */
     .list-guides-intro li:last-child {
       border-bottom: transparent;
       margin-bottom: 0; }
@@ -2555,26 +2551,26 @@ ol.list-links.list-links--secondary a::before {
 * Link
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_components/_link.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_link.scss */
 a {
   color: #3372df; }
 
-/* line 11, D:/Responsive/responsive2/app/styles/components/_components/_link.scss */
+/* line 11, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_link.scss */
 a:hover {
   text-decoration: none; }
 
-/* line 15, D:/Responsive/responsive2/app/styles/components/_components/_link.scss */
+/* line 15, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_link.scss */
 .cta--primary {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   color: #3372df;
   font-weight: 400;
   display: inline-block;
   line-height: 1;
   text-decoration: none; }
-  /* line 350, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+  /* line 350, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
   .cta--primary:hover {
     color: rgba(0, 0, 0, 0.87); }
-  /* line 356, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+  /* line 356, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
   .cta--primary::before {
     display: inline-block;
     padding-right: 10px;
@@ -2583,14 +2579,14 @@ a:hover {
     font-size: 13px;
     content: '\e005'; }
 
-/* line 19, D:/Responsive/responsive2/app/styles/components/_components/_link.scss */
+/* line 19, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_link.scss */
 .cta--secondary {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   color: #3372df;
   font-weight: 400;
   display: inline-block;
   line-height: 1; }
-  /* line 350, D:/Responsive/responsive2/app/styles/components/_utils.scss */
+  /* line 350, D:/Responsive/responsive2/htmlcss/app/styles/components/_utils.scss */
   .cta--secondary:hover {
     color: rgba(0, 0, 0, 0.87); }
 
@@ -2599,19 +2595,19 @@ a:hover {
 * Table
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
 table {
   margin-top: 26px;
   width: 100%; }
-  /* line 11, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+  /* line 11, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
   table thead {
     background: #3372df;
     color: #ffffff; }
-  /* line 16, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+  /* line 16, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
   table th {
     text-align: center;
     display: none;
-    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.625em;
     /* 26px */
@@ -2628,15 +2624,15 @@ table {
   @media only screen and (min-width: 620px) {
     table tr {
       border-bottom: 1px solid #ffffff; } }
-  /* line 29, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+  /* line 29, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
   table tbody {
     background: #f0f0f0; }
-  /* line 33, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+  /* line 33, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
   table td {
     display: block;
     padding-top: 13px;
     padding-bottom: 13px; }
-    /* line 39, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+    /* line 39, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
     table td::before {
       content: attr(data-th) " :";
       display: inline-block;
@@ -2649,7 +2645,7 @@ table {
       bottom: 0;
       width: 100px;
       max-height: 100%;
-      font-family: 'Roboto Condensed', Helvetica, sans-serif;
+      font-family: 'Open Sans', Helvetica, sans-serif;
       font-size: 16px;
       font-weight: 400;
       padding-left: 13px;
@@ -2657,7 +2653,7 @@ table {
       @media only screen and (min-width: 620px) {
         table td::before {
           display: none; } }
-  /* line 64, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+  /* line 64, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
   table th, table td {
     position: relative;
     padding-left: 140px; }
@@ -2674,7 +2670,7 @@ table {
       padding: 26px;
       padding-bottom: 25px; } }
 
-/* line 89, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+/* line 89, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
 td:last-child::after {
   content: "";
   display: block;
@@ -2688,37 +2684,37 @@ td:last-child::after {
     td:last-child::after {
       display: none; } }
 
-/* line 104, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+/* line 104, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
 .table-2 col {
   width: 344px; }
   @media only screen and (min-width: 800px) {
     .table-2 col {
       width: 432px; } }
 @media only screen and (min-width: 620px) {
-  /* line 114, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+  /* line 114, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
   .table-2 th:first-child, .table-2 td:first-child {
     border-right: 2px solid #ffffff; } }
 
-/* line 122, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+/* line 122, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
 .table-3 col {
   width: 229.33333px; }
   @media only screen and (min-width: 800px) {
     .table-3 col {
       width: 288px; } }
 @media only screen and (min-width: 620px) {
-  /* line 132, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+  /* line 132, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
   .table-3 th:nth-child(2), .table-3 td:nth-child(2) {
     border-left: 2px solid #ffffff;
     border-right: 2px solid #ffffff; } }
 
-/* line 141, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+/* line 141, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
 .table-4 col {
   width: 172px; }
   @media only screen and (min-width: 800px) {
     .table-4 col {
       width: 216px; } }
 @media only screen and (min-width: 620px) {
-  /* line 152, D:/Responsive/responsive2/app/styles/components/_components/_table.scss */
+  /* line 152, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_table.scss */
   .table-4 th:nth-child(2), .table-4 th:nth-child(3), .table-4 td:nth-child(2), .table-4 td:nth-child(3) {
     border-left: 2px solid #ffffff;
     border-right: 2px solid #ffffff; } }
@@ -2728,11 +2724,11 @@ td:last-child::after {
 * Media - imgs/videos
 *
 **/
-/* line 9, D:/Responsive/responsive2/app/styles/components/_components/_media.scss */
+/* line 9, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_media.scss */
 img, video, object {
   max-width: 100%; }
 
-/* line 15, D:/Responsive/responsive2/app/styles/components/_components/_media.scss */
+/* line 15, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_media.scss */
 .content img {
   margin-top: 26px;
   margin-bottom: 26px; }
@@ -2742,7 +2738,7 @@ img, video, object {
 * Breadcrumb
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_components/_breadcrumb.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_breadcrumb.scss */
 .breadcrumbs {
   display: none;
   position: relative;
@@ -2751,7 +2747,7 @@ img, video, object {
     .breadcrumbs {
       display: block; } }
 
-/* line 17, D:/Responsive/responsive2/app/styles/components/_components/_breadcrumb.scss */
+/* line 17, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_breadcrumb.scss */
 .breadcrumbs p {
   font-size: 13px;
   line-height: 2em;
@@ -2760,7 +2756,7 @@ img, video, object {
   padding-bottom: 0;
   padding-top: 26px; }
 
-/* line 22, D:/Responsive/responsive2/app/styles/components/_components/_breadcrumb.scss */
+/* line 22, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_breadcrumb.scss */
 .breadcrumbs__link {
   font-size: 13px;
   line-height: 2em;
@@ -2779,12 +2775,12 @@ img, video, object {
 * subsection__title
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_components/_subsection-title.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_subsection-title.scss */
 .subsection-title {
   color: rgba(0, 0, 0, 0.87);
   margin-top: 52px; }
 
-/* line 12, D:/Responsive/responsive2/app/styles/components/_components/_subsection-title.scss */
+/* line 12, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_subsection-title.scss */
 .subsection-number {
   font-size: 16px;
   line-height: 1.625em;
@@ -2799,18 +2795,18 @@ img, video, object {
 * Articles list
 *
 **/
-/* line 7, D:/Responsive/responsive2/app/styles/components/_components/_articles-list.scss */
+/* line 7, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_articles-list.scss */
 .articles-list {
   padding-left: 0; }
 
-/* line 11, D:/Responsive/responsive2/app/styles/components/_components/_articles-list.scss */
+/* line 11, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_articles-list.scss */
 .articles-list__item {
   padding-bottom: 52px;
   padding-left: 0; }
-  /* line 15, D:/Responsive/responsive2/app/styles/components/_components/_articles-list.scss */
+  /* line 15, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_articles-list.scss */
   .articles-list__item:last-child {
     padding-bottom: 53px; }
-  /* line 21, D:/Responsive/responsive2/app/styles/components/_components/_articles-list.scss */
+  /* line 21, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_articles-list.scss */
   .articles-list__item::before {
     content: "";
     display: block;
@@ -2819,20 +2815,20 @@ img, video, object {
     box-shadow: inset 0 1px 0 0 #e0e0e0;
     margin-right: 0;
     margin-left: 30%; }
-  /* line 32, D:/Responsive/responsive2/app/styles/components/_components/_articles-list.scss */
+  /* line 32, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_articles-list.scss */
   .articles-list__item h3 a:hover {
     text-decoration: none; }
-  /* line 37, D:/Responsive/responsive2/app/styles/components/_components/_articles-list.scss */
+  /* line 37, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_articles-list.scss */
   .articles-list__item p {
     margin-top: 26px;
     margin-bottom: 26px; }
-  /* line 42, D:/Responsive/responsive2/app/styles/components/_components/_articles-list.scss */
+  /* line 42, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_articles-list.scss */
   .articles-list__item:first-child {
     padding-top: 0; }
     @media only screen and (min-width: 620px) {
       .articles-list__item:first-child {
         padding-top: 24px; } }
-    /* line 49, D:/Responsive/responsive2/app/styles/components/_components/_articles-list.scss */
+    /* line 49, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_articles-list.scss */
     .articles-list__item:first-child::before {
       display: none; }
 
@@ -2841,7 +2837,7 @@ img, video, object {
 * Guides List
 *
 **/
-/* line 8, D:/Responsive/responsive2/app/styles/components/_components/_guides-list.scss */
+/* line 8, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_guides-list.scss */
 .guides-list {
   overflow: hidden; }
   @media only screen and (min-width: 620px) {
@@ -2851,7 +2847,7 @@ img, video, object {
       flex-wrap: wrap;
       padding-top: 52px; } }
 
-/* line 20, D:/Responsive/responsive2/app/styles/components/_components/_guides-list.scss */
+/* line 20, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_guides-list.scss */
 .guides-list__item {
   padding: 0;
   background: #ffffff;
@@ -2862,16 +2858,16 @@ img, video, object {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap; } }
-  /* line 32, D:/Responsive/responsive2/app/styles/components/_components/_guides-list.scss */
+  /* line 32, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_guides-list.scss */
   .guides-list__item h3 {
     margin: 0 32px; }
-  /* line 36, D:/Responsive/responsive2/app/styles/components/_components/_guides-list.scss */
+  /* line 36, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_guides-list.scss */
   .guides-list__item p {
     margin: 26px 32px 0; }
   @media only screen and (min-width: 620px) {
     .guides-list__item .primary-content {
       flex: 1; } }
-  /* line 46, D:/Responsive/responsive2/app/styles/components/_components/_guides-list.scss */
+  /* line 46, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_guides-list.scss */
   .guides-list__item .secondary-content {
     position: relative;
     margin-top: 51px;
@@ -2879,22 +2875,22 @@ img, video, object {
     @media only screen and (min-width: 620px) {
       .guides-list__item .secondary-content {
         width: 100%; } }
-    /* line 56, D:/Responsive/responsive2/app/styles/components/_components/_guides-list.scss */
+    /* line 56, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_guides-list.scss */
     .guides-list__item .secondary-content .icon-circle {
       position: absolute;
       top: -28px;
       left: 50%;
       margin-left: -21px;
       border: 2px solid #ffffff; }
-      /* line 63, D:/Responsive/responsive2/app/styles/components/_components/_guides-list.scss */
+      /* line 63, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_guides-list.scss */
       .guides-list__item .secondary-content .icon-circle i {
         font-size: 23px; }
-  /* line 69, D:/Responsive/responsive2/app/styles/components/_components/_guides-list.scss */
+  /* line 69, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_guides-list.scss */
   .guides-list__item ol {
     margin: 26px 0 0;
     padding: 52px 0 52px;
     margin-top: 0; }
-  /* line 75, D:/Responsive/responsive2/app/styles/components/_components/_guides-list.scss */
+  /* line 75, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_guides-list.scss */
   .guides-list__item::before {
     display: none; }
 
@@ -2903,7 +2899,7 @@ img, video, object {
 * Icon Circle
 *
 **/
-/* line 8, D:/Responsive/responsive2/app/styles/components/_components/_icon-circle.scss */
+/* line 8, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icon-circle.scss */
 .icon-circle, .icon-circle--large {
   height: 0;
   width: 0;
@@ -2914,7 +2910,7 @@ img, video, object {
   font-size: 0;
   padding: 22px;
   margin: 4px auto; }
-  /* line 20, D:/Responsive/responsive2/app/styles/components/_components/_icon-circle.scss */
+  /* line 20, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icon-circle.scss */
   .icon-circle i, .icon-circle span, .icon-circle--large i, .icon-circle--large span {
     position: absolute;
     line-height: 0px;
@@ -2924,22 +2920,22 @@ img, video, object {
     text-align: center;
     color: #ffffff;
     font-size: 26px; }
-  /* line 31, D:/Responsive/responsive2/app/styles/components/_components/_icon-circle.scss */
+  /* line 31, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icon-circle.scss */
   .icon-circle span, .icon-circle--large span {
-    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 26px;
     font-weight: 700; }
     @media only screen and (min-width: 620px) {
       .icon-circle span, .icon-circle--large span {
         font-size: 42px; } }
 
-/* line 42, D:/Responsive/responsive2/app/styles/components/_components/_icon-circle.scss */
+/* line 42, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icon-circle.scss */
 .icon-circle--large {
   margin-top: 0;
   margin-bottom: 0;
   padding: 26px;
   position: relative; }
-  /* line 48, D:/Responsive/responsive2/app/styles/components/_components/_icon-circle.scss */
+  /* line 48, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icon-circle.scss */
   .icon-circle--large i {
     font-size: 26px; }
     @media only screen and (min-width: 620px) {
@@ -2949,19 +2945,19 @@ img, video, object {
     .icon-circle--large {
       padding: 37px;
       border: 2px solid #ffffff; }
-      /* line 60, D:/Responsive/responsive2/app/styles/components/_components/_icon-circle.scss */
+      /* line 60, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icon-circle.scss */
       a .icon-circle--large {
         padding: 38px;
         box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.42);
         border: 1px solid;
         transition: all 100ms linear;
         transform: translateZ(0); }
-      /* line 71, D:/Responsive/responsive2/app/styles/components/_components/_icon-circle.scss */
+      /* line 71, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icon-circle.scss */
       .no-touch a:hover .icon-circle--large {
         box-shadow: inset 0px 0px 0px 1px #ffffff;
         transform: scale(1.1); } }
 
-/* line 79, D:/Responsive/responsive2/app/styles/components/_components/_icon-circle.scss */
+/* line 79, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icon-circle.scss */
 .icon-circle--nav {
   height: 0;
   width: 0;
@@ -2977,7 +2973,7 @@ img, video, object {
       padding: 22px;
       margin-top: 4px;
       margin-bottom: 4px; } }
-  /* line 96, D:/Responsive/responsive2/app/styles/components/_components/_icon-circle.scss */
+  /* line 96, D:/Responsive/responsive2/htmlcss/app/styles/components/_components/_icon-circle.scss */
   .icon-circle--nav i {
     position: absolute;
     line-height: 1px;
@@ -2996,107 +2992,107 @@ img, video, object {
 * Themed styles
 *
 **/
-/* line 9, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 9, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--multi-device-layouts .themed {
   color: #297ea9; }
-/* line 11, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 11, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--introduction-to-media .themed {
   color: #cf423a; }
-/* line 13, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 13, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--user-input .themed {
   color: #2c8566; }
-/* line 15, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 15, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--performance .themed {
   color: #7b5294; }
 
-/* line 22, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 22, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--multi-device-layouts .themed--background, .theme--multi-device-layouts .themed--background.next-lessons::before {
   background-color: #297ea9; }
-/* line 25, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 25, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--introduction-to-media .themed--background, .theme--introduction-to-media .themed--background.next-lessons::before {
   background-color: #cf423a; }
-/* line 28, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 28, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--user-input .themed--background, .theme--user-input .themed--background.next-lessons::before {
   background-color: #2c8566; }
-/* line 31, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 31, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--performance .themed--background, .theme--performance .themed--background.next-lessons::before {
   background-color: #7b5294; }
 
-/* line 37, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 37, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--multi-device-layouts .themed--hover:hover {
   color: #297ea9; }
-/* line 39, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 39, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--introduction-to-media .themed--hover:hover {
   color: #cf423a; }
-/* line 41, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 41, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--user-input .themed--hover:hover {
   color: #2c8566; }
-/* line 43, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 43, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--performance .themed--hover:hover {
   color: #7b5294; }
 
-/* line 49, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 49, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--multi-device-layouts .themed--hover-secondary:hover {
   color: #89c4e2; }
-/* line 51, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 51, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--introduction-to-media .themed--hover-secondary:hover {
   color: #edb8b5; }
-/* line 53, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 53, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--user-input .themed--hover-secondary:hover {
   color: #78d2b3; }
-/* line 55, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 55, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .theme--performance .themed--hover-secondary:hover {
   color: #c4add2; }
 
-/* line 66, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 66, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .article--multi-device-layouts .article-container h1, .article--multi-device-layouts .article-container h2 {
   color: #297ea9; }
-/* line 68, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 68, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .article--introduction-to-media .article-container h1, .article--introduction-to-media .article-container h2 {
   color: #cf423a; }
-/* line 70, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 70, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .article--user-input .article-container h1, .article--user-input .article-container h2 {
   color: #2c8566; }
-/* line 72, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 72, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .article--performance .article-container h1, .article--performance .article-container h2 {
   color: #7b5294; }
 
-/* line 80, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 80, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .nav-theme--multi-device-layouts .themed--hover:hover {
   color: #297ea9; }
-/* line 82, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 82, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .nav-theme--introduction-to-media .themed--hover:hover {
   color: #cf423a; }
-/* line 84, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 84, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .nav-theme--user-input .themed--hover:hover {
   color: #2c8566; }
-/* line 86, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 86, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .nav-theme--performance .themed--hover:hover {
   color: #7b5294; }
 
-/* line 92, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 92, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .nav-theme--multi-device-layouts .themed {
   color: #297ea9; }
-/* line 94, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 94, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .nav-theme--introduction-to-media .themed {
   color: #cf423a; }
-/* line 96, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 96, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .nav-theme--user-input .themed {
   color: #2c8566; }
-/* line 98, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 98, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .nav-theme--performance .themed {
   color: #7b5294; }
 
-/* line 104, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 104, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .nav-theme--multi-device-layouts .themed--background {
   background-color: #297ea9; }
-/* line 106, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 106, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .nav-theme--introduction-to-media .themed--background {
   background-color: #cf423a; }
-/* line 108, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 108, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .nav-theme--user-input .themed--background {
   background-color: #2c8566; }
-/* line 110, D:/Responsive/responsive2/app/styles/components/_themed.scss */
+/* line 110, D:/Responsive/responsive2/htmlcss/app/styles/components/_themed.scss */
 .nav-theme--performance .themed--background {
   background-color: #7b5294; }
 
@@ -3105,49 +3101,49 @@ img, video, object {
 * Styleguide
 *
 **/
-/* line 9, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+/* line 9, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
 .page--styleguide .styleguide__module-title {
   margin-bottom: 26px; }
-/* line 13, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+/* line 13, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
 .page--styleguide section {
   margin-bottom: 52px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 77px; }
-/* line 20, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+/* line 20, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
 .page--styleguide .styleguide__color-list {
   text-align: center; }
-  /* line 23, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+  /* line 23, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
   .page--styleguide .styleguide__color-list li {
     border-bottom: 52px solid;
     margin-bottom: 26px;
     position: relative; }
-/* line 30, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+/* line 30, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
 .page--styleguide .styleguide__breadcrumb .breadcrumbs {
   display: block; }
-/* line 36, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+/* line 36, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
 .page--styleguide .styleguide__lists ul, .page--styleguide .styleguide__lists ol {
   margin-bottom: 26px; }
-/* line 41, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+/* line 41, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
 .page--styleguide .styleguide__inverted-block {
   background: #e8e8e8;
   padding: 0 13px; }
-/* line 46, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+/* line 46, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
 .page--styleguide .styleguide__theme-block {
   background: #297ea9;
   padding: 0 13px; }
 
-/* line 53, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+/* line 53, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
 .demo {
   margin-bottom: 26px;
   margin-top: 26px; }
 
-/* line 59, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+/* line 59, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
 .demo [class*="g-"] {
   background-color: rgba(0, 0, 0, 0.26);
   position: relative;
   margin-bottom: 26px;
   min-height: 156px; }
-  /* line 66, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+  /* line 66, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
   .demo [class*="g-"]::before, .demo [class*="g-"]::after {
     font-size: 13px;
     line-height: 2em;
@@ -3156,11 +3152,11 @@ img, video, object {
     padding-bottom: 0;
     display: block;
     margin: 0 10px; }
-  /* line 72, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+  /* line 72, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
   .demo [class*="g-"]::before {
     content: 'HTML classes: ';
     font-weight: 700; }
-  /* line 77, D:/Responsive/responsive2/app/styles/components/_pages/_styleguide.scss */
+  /* line 77, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_styleguide.scss */
   .demo [class*="g-"]::after {
     content: attr(class);
     word-spacing: 15px; }
@@ -3170,14 +3166,14 @@ img, video, object {
 * Resources page
 *
 **/
-/* line 10, D:/Responsive/responsive2/app/styles/components/_pages/_page-resources.scss */
+/* line 10, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_page-resources.scss */
 .page--resources .article-section__icon, .page--resources .articles-count, .page--resources .guides-list__item .secondary-content {
   display: none; }
-/* line 14, D:/Responsive/responsive2/app/styles/components/_pages/_page-resources.scss */
+/* line 14, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_page-resources.scss */
 .page--resources .primary-content {
   padding-top: 26px;
   padding-bottom: 52px; }
-  /* line 18, D:/Responsive/responsive2/app/styles/components/_pages/_page-resources.scss */
+  /* line 18, D:/Responsive/responsive2/htmlcss/app/styles/components/_pages/_page-resources.scss */
   .page--resources .primary-content p {
     margin-top: 0; }
 
@@ -3186,129 +3182,129 @@ img, video, object {
 * Helper
 *
 **/
-/* line 10, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 10, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .clear::before, .clear::after {
   content: '';
   display: table; }
-/* line 14, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 14, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .clear::after {
   clear: both; }
 
 /*==========  COLORS  ==========*/
-/* line 22, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 22, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--blue {
   color: #3372df; }
 
-/* line 23, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 23, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--red {
   color: #cb4437; }
 
-/* line 24, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 24, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--green {
   color: #0f9d58; }
 
-/* line 25, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 25, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--yellow {
   color: #f4b400; }
 
-/* line 26, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 26, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--blue-secondary {
   color: #b7cdf4; }
 
-/* line 27, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 27, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--red-secondary {
   color: #ebb6b0; }
 
-/* line 28, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 28, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--green-secondary {
   color: #56efa5; }
 
-/* line 29, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 29, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--yellow-secondary {
   color: #ffd45b; }
 
-/* line 31, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 31, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--gray-background {
   color: #f0f0f0; }
 
-/* line 32, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 32, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--gray-keyline {
   color: #e0e0e0; }
 
-/* line 33, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 33, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--gray {
   color: rgba(0, 0, 0, 0.54); }
 
-/* line 34, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 34, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--gray-dark {
   color: rgba(0, 0, 0, 0.87); }
 
-/* line 36, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 36, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--text {
   color: #404040; }
 
-/* line 37, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 37, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--highlight {
   color: #3372df; }
 
-/* line 38, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 38, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--warning {
   color: #ffd45b; }
 
-/* line 39, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 39, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--danger {
   color: #cb4437; }
 
-/* line 40, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 40, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--muted {
   color: #737373; }
 
-/* line 42, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 42, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--remember {
   color: #09829a; }
 
-/* line 43, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 43, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--learning {
   color: #da2e75; }
 
-/* line 45, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 45, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--layouts {
   color: #297ea9; }
 
-/* line 46, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 46, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--user {
   color: #2c8566; }
 
-/* line 47, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 47, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--media {
   color: #cf423a; }
 
-/* line 48, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 48, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--performance {
   color: #7b5294; }
 
-/* line 49, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 49, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--layouts-secondary {
   color: #89c4e2; }
 
-/* line 50, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 50, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--user-secondary {
   color: #78d2b3; }
 
-/* line 51, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 51, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--media-secondary {
   color: #edb8b5; }
 
-/* line 52, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 52, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .color--performance-secondary {
   color: #c4add2; }
 
 /*==========  TEXT DIVIDER  ==========*/
-/* line 58, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 58, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .text-divider {
   position: relative;
   margin-bottom: 26px; }
-  /* line 62, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+  /* line 62, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
   .text-divider::after {
     content: '';
     display: block;
@@ -3318,72 +3314,72 @@ img, video, object {
     box-shadow: 0 1px 0 0 #e0e0e0;
     left: 30%;
     bottom: -13px; }
-  /* line 73, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+  /* line 73, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
   .text-divider.xlarge {
     margin-bottom: 52px; }
-    /* line 76, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+    /* line 76, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
     .text-divider.xlarge::after {
       bottom: -26px; }
-  /* line 81, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+  /* line 81, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
   .text-divider.xxlarge {
     margin-bottom: 78px; }
-    /* line 84, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+    /* line 84, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
     .text-divider.xxlarge::after {
       bottom: -39px; }
-  /* line 89, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+  /* line 89, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
   .text-divider.huge {
     margin-bottom: 78px; }
-    /* line 92, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+    /* line 92, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
     .text-divider.huge::after {
       bottom: -39px; }
 
 /*==========  GENERIC  ==========*/
-/* line 100, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 100, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .centered {
   text-align: center; }
 
 /*==========  TAG  ==========*/
-/* line 106, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+/* line 106, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
 .tag {
   font-size: 13px;
   line-height: 2em;
   /* 26px */
   padding-top: 2em;
   padding-bottom: 0;
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
   text-decoration: none; }
-  /* line 114, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+  /* line 114, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
   .tag:hover {
     color: rgba(0, 0, 0, 0.87); }
-  /* line 118, D:/Responsive/responsive2/app/styles/components/_helper.scss */
+  /* line 118, D:/Responsive/responsive2/htmlcss/app/styles/components/_helper.scss */
   .tag::before {
     content: '# ';
     display: inline-block; }
 
-/* line 17, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 17, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 html, body {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0; }
 
-/* line 24, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 24, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 body {
   position: relative;
-  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
   background-color: #fff;
   box-sizing: border-box;
   min-height: 100%; }
 
-/* line 33, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 33, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 body.open {
   overflow: hidden; }
 
-/* line 37, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 37, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .app-bar {
   display: block;
   width: 100%;
@@ -3394,12 +3390,12 @@ body.open {
   overflow: hidden;
   z-index: 1; }
 
-/* line 49, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 49, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .app-bar.open, .app-bar.open ~ main {
   -webkit-transform: translate(250px, 0);
   transform: translate(250px, 0); }
 
-/* line 54, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 54, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .app-bar .logo {
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -3414,13 +3410,13 @@ body.open {
   font-weight: 300;
   display: initial; }
 
-/* line 69, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 69, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .app-bar .logo a {
   text-decoration: none;
   color: inherit;
   font-weight: normal; }
 
-/* line 75, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 75, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .app-bar-actions {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3430,7 +3426,7 @@ body.open {
   flex-direction: row;
   z-index: 2; }
 
-/* line 85, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 85, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .app-bar button {
   width: 60px;
   height: 60px;
@@ -3443,25 +3439,25 @@ body.open {
   transition: background-color 0.2s ease-out;
   -webkit-tap-highlight-color: transparent; }
 
-/* line 98, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 98, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .app-bar button img {
   height: 24px;
   width: 24px; }
 
-/* line 103, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 103, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .app-bar button:hover {
   background-color: rgba(255, 255, 255, 0.1); }
 
-/* line 107, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 107, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .app-bar button:focus {
   background-color: rgba(255, 255, 255, 0.2);
   outline: 0; }
 
-/* line 112, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 112, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .app-bar button:active {
   background-color: rgba(255, 255, 255, 0.4); }
 
-/* line 116, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 116, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .promote-layer {
   /*
     This may promote the layer to a composited
@@ -3474,11 +3470,11 @@ body.open {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
 
-/* line 132, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 132, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .base, p, ul, ol {
   font-size: 19px; }
 
-/* line 136, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 136, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .navdrawer-container {
   z-index: 1;
   position: fixed;
@@ -3492,34 +3488,34 @@ body.open {
   transform: translate(-250px, 0);
   overflow-y: auto; }
 
-/* line 150, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 150, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .navdrawer-container.open {
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0); }
 
-/* line 157, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 157, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .app-bar, .navdrawer-container.opened, main {
   -webkit-transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out; }
 
-/* line 163, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 163, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .navdrawer-container h4, .navdrawer-container ul li a {
   height: 60px;
   padding: 17px 20px;
   line-height: 1.4; }
 
-/* line 169, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 169, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .navdrawer-container h4 {
   background-color: white;
   color: #3367D6; }
 
-/* line 174, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 174, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .navdrawer-container ul {
   padding: 0;
   margin: 0;
   list-style-type: none; }
 
-/* line 180, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 180, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .navdrawer-container ul li a {
   display: block;
   text-decoration: none;
@@ -3528,163 +3524,37 @@ body.open {
   transition: background-color 0.2s ease-out;
   white-space: nowrap; }
 
-/* line 189, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 189, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .navdrawer-container ul li {
   border-bottom-style: solid;
   border-width: 1px;
   border-color: white;
   padding: 0; }
 
-/* line 196, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 196, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .navdrawer-container ul li::before {
   content: none; }
 
-/* line 200, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 200, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .navdrawer-container ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2); }
 
-/* line 204, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 204, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .navdrawer-container ul li a:focus {
   background-color: rgba(255, 255, 255, 0.3);
   outline: 0; }
 
-/* line 209, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 209, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .navdrawer-container ul li a:active {
   background-color: rgba(255, 255, 255, 0.4); }
 
-/* line 213, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 213, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 main {
   margin: 0 auto;
-  /* Height of the header */
-  min-height: 100%; }
+  margin-bottom: 3em;
+  clear: both; }
 
-/* line 219, D:/Responsive/responsive2/app/styles/main.scss */
-footer {
-  margin: 0 auto;
-  /* Height of the header */
-  padding: 60px 16px 16px 16px; }
-
-/** Larger Screens - desktops and tablets **/
-@media all and (min-width: 990px) {
-  /* line 227, D:/Responsive/responsive2/app/styles/main.scss */
-  .app-bar {
-    position: relative; }
-  /* line 232, D:/Responsive/responsive2/app/styles/main.scss */
-  .app-bar.open, .app-bar.open ~ main {
-    -webkit-transform: translate(0px, 0);
-    transform: translate(0px, 0); }
-  /* line 237, D:/Responsive/responsive2/app/styles/main.scss */
-  .app-bar-container {
-    display: block;
-    height: 130px;
-    max-width: 864px;
-    padding: 0 16px;
-    box-sizing: border-box;
-    background-color: #4285f4; }
-  /* line 246, D:/Responsive/responsive2/app/styles/main.scss */
-  .app-bar .logo {
-    float: left;
-    margin: 0;
-    padding: 0;
-    line-height: 130px;
-    font-size: 46px; }
-  /* line 254, D:/Responsive/responsive2/app/styles/main.scss */
-  .app-bar-actions {
-    float: right; }
-  /* line 258, D:/Responsive/responsive2/app/styles/main.scss */
-  .app-bar::after {
-    content: ' ';
-    display: block;
-    height: 0;
-    overflow: hidden;
-    clear: both; }
-  /* line 266, D:/Responsive/responsive2/app/styles/main.scss */
-  button.menu {
-    display: none; }
-  /* line 270, D:/Responsive/responsive2/app/styles/main.scss */
-  .navdrawer-container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin-top: 0;
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-    -webkit-transition: none;
-    transition: none;
-    overflow-y: auto; }
-  /* line 282, D:/Responsive/responsive2/app/styles/main.scss */
-  .navdrawer-container h4 {
-    display: none; }
-  /* line 286, D:/Responsive/responsive2/app/styles/main.scss */
-  .navdrawer-container ul {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    max-width: 864px;
-    margin: 0 auto;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row; }
-  /* line 297, D:/Responsive/responsive2/app/styles/main.scss */
-  .navdrawer-container ul li {
-    border: none; }
-  /* line 301, D:/Responsive/responsive2/app/styles/main.scss */
-  main {
-    max-width: 864px;
-    padding-top: 0;
-    min-height: initial; }
-  /* line 306, D:/Responsive/responsive2/app/styles/main.scss */
-  main {
-    max-width: 864px;
-    padding-top: 0;
-    min-height: initial; }
-  /* line 312, D:/Responsive/responsive2/app/styles/main.scss */
-  body {
-    overflow-y: scroll; } }
-
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 300;
-  src: url(/fonts/RobotoCondensed-Light.eot);
-  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(/fonts/RobotoCondensed-Light.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-Light.woff) format('woff'); }
-
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  src: url(/fonts/RobotoCondensed-Regular.eot);
-  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(/fonts/RobotoCondensed-Regular.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-Regular.woff) format('woff'); }
-
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  src: url(/fonts/RobotoCondensed-Bold.eot);
-  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Bold'), url(/fonts/RobotoCondensed-Bold.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-Bold.woff) format('woff'); }
-
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: italic;
-  font-weight: 300;
-  src: url(/fonts/RobotoCondensed-LightItalic.eot);
-  src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url(/fonts/RobotoCondensed-LightItalic.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-LightItalic.woff) format('woff'); }
-
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: italic;
-  font-weight: 400;
-  src: url(/fonts/RobotoCondensed-Italic.eot);
-  src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url(/fonts/RobotoCondensed-Italic.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-Italic.woff) format('woff'); }
-
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: italic;
-  font-weight: 700;
-  src: url(/fonts/RobotoCondensed-BoldItalic.eot);
-  src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url(/fonts/RobotoCondensed-BoldItalic.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-BoldItalic.woff) format('woff'); }
-
-/* line 365, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 219, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .company-logo {
   background-image: url("../images/site/001_assets_DPLogo.png");
   display: block;
@@ -3695,110 +3565,332 @@ footer {
   background-repeat: no-repeat;
   opacity: 1;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  margin: 15px 15px 15px 15px; }
 
-/* line 378, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 233, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .top-area {
   width: 100%;
-  height: 137px;
+  height: 170px;
   float: left;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.5), #ffffff);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(255, 255, 255, 0.5), #ffffff);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(255, 0, 0, 0.5), #ffffff);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.5), #ffffff);
+  /* Standard syntax (must be last) */ }
 
-/* line 387, D:/Responsive/responsive2/app/styles/main.scss */
-.top-area:before {
-  background: white;
-  opacity: 0.5;
-  position: absolute;
-  content: '';
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1; }
-
-/* line 399, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 250, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .user-area {
-  width: 85px;
+  width: 110px;
   height: 100%;
   float: right;
   position: relative;
   z-index: 1; }
-  /* line 405, D:/Responsive/responsive2/app/styles/main.scss */
+  /* line 257, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .user-area span {
+    padding-left: 10px;
     position: absolute;
     width: 100%;
     bottom: 0;
     left: 0;
-    background-color: #185488; }
+    background-color: #185488;
+    color: #3492D8; }
+  /* line 267, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .user-area .user-name {
+    color: white; }
+  /* line 271, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .user-area .dropdown {
+    width: 18px;
+    height: 10px;
+    display: block;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("/images/site/arrow-down.png");
+    background-repeat: no-repeat;
+    margin: 10px 10px;
+    background-repeat: no-repeat; }
 
-/* line 414, D:/Responsive/responsive2/app/styles/main.scss */
-.dropdown {
-  height: 10px;
-  width: 10px;
-  background-color: black;
-  display: block;
-  float: right;
-  position: absolute;
-  top: 0;
-  right: 0; }
-
-/* line 426, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 288, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .featured {
   background-image: url("/images/site/001_assets_M50.png");
   background-repeat: no-repeat;
   min-height: 400px;
   width: auto;
   background-size: cover;
-  position: relative; }
-  /* line 433, D:/Responsive/responsive2/app/styles/main.scss */
+  position: relative;
+  text-align: center; }
+  /* line 297, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .featured span {
     height: 100px;
     width: 100%;
     position: absolute;
     bottom: 3px;
     left: 0;
-    background: white;
-    opacity: 0.75; }
+    float: left;
+    padding-top: 20px;
+    text-align: left;
+    color: #00447D;
+    background: rgba(255, 255, 255, 0.9);
+    padding-right: 40px; }
+  /* line 312, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .featured b {
+    background-image: url("/images/site/001_assets_play%20button.png");
+    background-repeat: no-repeat;
+    width: 59px;
+    height: 59px;
+    display: block;
+    margin-right: 30px;
+    margin-left: 15px;
+    float: left; }
 
-/* line 444, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 325, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .app-bar-container {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: block;
   width: 100%;
-  min-height: 300px;
+  min-height: 235px;
   position: relative;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   margin: 0 auto;
   background-image: url("/images/site/001_assets_galaxy%20background.png");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position-y: -260px;
+  background-position-x: -200px;
+  clear: both; }
 
-/* line 459, D:/Responsive/responsive2/app/styles/main.scss */
+/* line 343, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+.head-slogan {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  clear: both;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), #000000);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.5), #000000);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), #000000);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #000000);
+  /* Standard syntax (must be last) */ }
+
+/* line 361, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
 .article {
   padding-top: 3em;
-  text-align: justify; }
-  /* line 462, D:/Responsive/responsive2/app/styles/main.scss */
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: justify;
+  clear: both; }
+  /* line 367, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .article h1 {
-    color: #FF931E; }
-  /* line 465, D:/Responsive/responsive2/app/styles/main.scss */
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #FF9A2D; }
+  /* line 373, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .article h2 {
-    padding-bottom: 1em; }
-  /* line 468, D:/Responsive/responsive2/app/styles/main.scss */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 1em;
+    font-size: 23px; }
+  /* line 380, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .article .read-more {
     float: right;
     height: 21px;
     width: 37px;
     display: block;
     background-image: url("/images/site/001_assets_read%20article%20prompt.png");
-    background-repeat: no-repeat; }
-  /* line 476, D:/Responsive/responsive2/app/styles/main.scss */
+    background-repeat: no-repeat;
+    clear: both; }
+  /* line 390, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .article span {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: block; }
+  /* line 396, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .article img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 90%; }
+    width: 100%; }
+
+/* line 405, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+advertisements {
+  margin: 0 auto;
+  clear: both;
+  display: block; }
+  /* line 409, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  advertisements img {
+    width: 300px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+
+/* line 419, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+.small-navigation {
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  clear: both;
+  font-weight: 600; }
+  /* line 426, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .small-navigation ul {
+    clear: both; }
+    /* line 428, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    .small-navigation ul li {
+      float: left;
+      display: block;
+      font-size: 17px; }
+  /* line 434, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .small-navigation .selected {
+    text-decoration: underline; }
+
+/* line 439, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+.top-navigation {
+  position: absolute;
+  bottom: 47px;
+  left: 14em; }
+  /* line 446, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .top-navigation li {
+    float: left;
+    display: block; }
+    /* line 449, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    .top-navigation li a {
+      color: #00447D;
+      font-weight: 600; }
+
+/* line 455, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+footer {
+  margin: 0 auto; }
+  /* line 457, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  footer .footer-image {
+    background-image: url("/images/site/001_assets_MGU.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 313px;
+    background-size: contain;
+    clear: both; }
+  /* line 465, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  footer .footer-description {
+    min-height: 250px;
+    background-color: #4372FF;
+    text-align: left;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: white; }
+    /* line 474, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    footer .footer-description h1 {
+      padding-top: 1.5em;
+      font-size: 24px; }
+    /* line 479, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    footer .footer-description h2 {
+      font-size: 18px; }
+  /* line 485, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  footer .copyright {
+    min-height: 240px;
+    background-color: #999999;
+    padding-top: 40px; }
+    /* line 489, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    footer .copyright span {
+      float: left; }
+    /* line 493, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    footer .copyright .c-text {
+      color: white;
+      margin-top: 15px; }
+    /* line 498, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    footer .copyright .logo {
+      background-image: url("/images/site/001_assets_DPLogo%20white.png");
+      background-repeat: no-repeat;
+      width: 137px;
+      height: 137px;
+      display: block;
+      margin-left: 20px;
+      margin-right: 20px; }
+
+/** Normal Screens - desktops and tablets **/
+@media all and (min-width: 800px) {
+  /* line 514, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .small-navigation {
+    display: none; }
+  /* line 518, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .top-navigation {
+    display: block;
+    float: left; }
+  /* line 523, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .featured span {
+    margin-left: 32px;
+    width: 61%;
+    font-size: 18px; }
+  /* line 529, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  main {
+    padding-top: 0; }
+  /* line 535, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  articles {
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: block; }
+  /* line 542, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .article {
+    clear: none;
+    width: 33%;
+    float: left;
+    display: block; }
+    /* line 547, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    .article h1 {
+      font-size: xx-large;
+      padding-left: 0.63em;
+      padding-right: 0.63em; }
+    /* line 552, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    .article h2 {
+      font-size: large;
+      padding-left: 0.63em;
+      padding-right: 0.63em; }
+    /* line 557, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    .article span {
+      font-size: normal;
+      margin-left: 0.63em;
+      margin-right: 0.63em; }
+  /* line 564, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  body {
+    overflow-y: scroll; }
+  /* line 568, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  advertisements {
+    width: 100%;
+    overflow: hidden; }
+    /* line 571, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    advertisements img {
+      width: auto;
+      height: 115px; }
+    /* line 576, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    advertisements .second-advert {
+      display: none; }
+    /* line 580, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    advertisements .first-advert {
+      float: left; }
+    /* line 584, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    advertisements .third-advert {
+      float: left; } }
+
+@media all and (max-width: 799px) {
+  /* line 596, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .top-navigation {
+    display: none; }
+  /* line 599, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .third-advert {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
