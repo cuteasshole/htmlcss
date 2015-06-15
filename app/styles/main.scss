@@ -506,6 +506,9 @@ footer {
             }
     }
 }
+.head-slogan-big{
+        display: none;
+}
 
 /** Normal Screens - desktops and tablets **/
 @media all and (min-width: 800px) {
@@ -585,9 +588,27 @@ footer {
             float:left; 
         }
     }
+    footer {
+    .footer-image {
+        clear: none;
+        width: 369px;
+        height: 249px;
+        float: left;
+        object-fit: cover;
+    }
     
     .footer-description {
+        clear: none;
+        
+        h1 {
+            padding-left: 15em;
+        }
+        
+        h2 {
+            padding-left: 20em;
+        }
     
+    }
     }
 
 }
@@ -599,4 +620,156 @@ footer {
   .third-advert {
     display: none;
   }
+}
+
+@media all and (min-width:1920px){
+    
+    .head-slogan {
+        width: 435px;
+        height: 510px;
+        display: none;
+    }
+    
+    .top-navigation {
+        left: 25em;
+    }
+    
+    .app-bar-container {
+        height: 680px;
+        background-position-y: -340px;
+        background-position-x: 0;
+    }
+    
+    .top-area {
+        height: 175px;
+        
+    }
+    
+    .head-slogan-big {
+        display: block;
+        float: left;
+        width: 435px;
+        height: 510px;
+        color: white;
+        font-size: 55px;
+        text-align: center;
+        clear: both;
+        padding-top: 110px;
+        padding-bottom: 110px;
+        padding-left: 38px;
+        padding-right: 38px;
+
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,1)); 
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,1)); 
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,1)); 
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,1)); 
+        /* Standard syntax (must be last) */
+    }
+    .user-area {
+        width: 160px;
+        
+    }
+    .user-expanded {
+        float: right;
+        background-color: rgba(0,68,125,0.85);
+        height: 510px;
+        width: 160px;
+        
+    }
+    .user-area {
+        span {
+            display: none;
+        }
+    }
+    .big-spaceship {
+        float: left;
+        width: 1325px;
+        height: 510px;
+        background-image: url("/images/site/001_assets_M50.png");
+    background-repeat: no-repeat;
+        background-size: cover;
+    }
+    main {
+    display: none;
+    }
+    
+    articles {
+        .article {
+            padding-top: 1em;
+        }
+        float: right;
+        width: 1485px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    advertisements {
+        clear: none;
+        width: auto;
+        
+        .first-advert {
+            display: block;
+            float: none;
+            
+        }
+        
+        .second-advert {
+            display: block;
+            float: none;
+        }
+        
+        .third-advert {
+            display: none;
+        }
+        img {
+            width: auto;
+            height: auto;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        
+    }
+    
+    footer {
+        
+        clear: both;
+        
+        .footer-image {
+            width: 620px;
+            height: 417px;
+        }
+        
+        .footer-description {
+            
+            height: 417px;
+            margin-left: 17.5em;
+            
+            h1 {
+                font-size: 45px;
+                padding-left: 8em;
+                padding-right: 5em;    
+            }
+            
+            h2 {
+                font-size: 31px;
+                padding-left: 11.75em;
+            }
+            
+        }
+        
+        .c-text {
+            font-size: 23px;
+        }
+    }
+    
+    .top-wrapper {
+        background-color: white;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    
 }
