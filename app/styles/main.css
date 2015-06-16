@@ -3665,7 +3665,7 @@ main {
   background-image: url("/images/site/001_assets_galaxy%20background.png");
   background-repeat: no-repeat;
   background-position-y: -260px;
-  background-position-x: -200px;
+  background-position-x: 0;
   clear: both; }
 
 /* line 343, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
@@ -3781,7 +3781,7 @@ footer {
     background-repeat: no-repeat;
     width: 100%;
     height: 313px;
-    background-size: contain;
+    background-size: cover;
     clear: both; }
   /* line 465, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   footer .footer-description {
@@ -3824,117 +3824,139 @@ footer {
 .head-slogan-big {
   display: none; }
 
+/* line 513, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+.selected {
+  text-decoration: underline; }
+
 /** Normal Screens - desktops and tablets **/
 @media all and (min-width: 800px) {
-  /* line 517, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 521, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .small-navigation {
     display: none; }
-  /* line 521, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 525, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .top-navigation {
     display: block;
     float: left; }
-  /* line 526, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 530, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .featured span {
     margin-left: 32px;
     width: 61%;
     font-size: 18px; }
-  /* line 532, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 536, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   main {
     padding-top: 0; }
-  /* line 538, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 542, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   articles {
     width: 100%;
     padding-left: 1em;
     padding-right: 1em;
     display: block; }
-  /* line 545, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 549, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .article {
     clear: none;
     width: 33%;
     float: left;
     display: block; }
-    /* line 550, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 554, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     .article h1 {
       font-size: xx-large;
       padding-left: 0.63em;
       padding-right: 0.63em; }
-    /* line 555, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 559, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     .article h2 {
       font-size: large;
       padding-left: 0.63em;
       padding-right: 0.63em; }
-    /* line 560, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 564, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     .article span {
       font-size: normal;
       margin-left: 0.63em;
       margin-right: 0.63em; }
-  /* line 567, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 571, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   body {
     overflow-y: scroll; }
-  /* line 571, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 575, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   advertisements {
     width: 100%;
     overflow: hidden; }
-    /* line 574, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 578, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     advertisements img {
       width: auto;
       height: 115px; }
-    /* line 579, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 583, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     advertisements .second-advert {
       display: none; }
-    /* line 583, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 587, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     advertisements .first-advert {
       float: left; }
-    /* line 587, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 591, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     advertisements .third-advert {
       float: left; }
-  /* line 592, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 596, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   footer .footer-image {
     clear: none;
     width: 369px;
     height: 249px;
     float: left;
     object-fit: cover; }
-  /* line 600, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 604, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   footer .footer-description {
     clear: none; }
-    /* line 603, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 607, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     footer .footer-description h1 {
       padding-left: 15em; }
-    /* line 607, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 611, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     footer .footer-description h2 {
       padding-left: 20em; } }
 
+/* line 620, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+.user-expanded {
+  display: none; }
+
+/* line 623, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+.big-spaceship {
+  display: none; }
+
 @media all and (max-width: 799px) {
-  /* line 617, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 628, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .top-navigation {
     display: none; }
-  /* line 620, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 631, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .third-advert {
     display: none; } }
 
 @media all and (min-width: 1920px) {
-  /* line 627, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 638, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .head-slogan {
     width: 435px;
     height: 510px;
     display: none; }
-  /* line 633, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 644, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .top-navigation {
     left: 25em; }
-  /* line 637, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 648, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .app-bar-container {
     height: 680px;
     background-position-y: -340px;
     background-position-x: 0; }
-  /* line 643, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 656, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .app-bar:after {
+    position: absolute;
+    top: 175px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.69);
+    content: '';
+    width: 100%;
+    height: 510px;
+    z-index: 1; }
+  /* line 668, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .top-area {
     height: 175px; }
-  /* line 648, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 673, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .head-slogan-big {
     display: block;
     float: left;
-    width: 435px;
+    width: 22.65%;
     height: 510px;
     color: white;
     font-size: 55px;
@@ -3952,86 +3974,171 @@ footer {
     /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #000000);
     /* Standard syntax (must be last) */ }
-  /* line 671, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 696, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .user-area {
     width: 160px; }
-  /* line 675, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 700, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .user-expanded {
+    display: block;
     float: right;
     background-color: rgba(0, 68, 125, 0.85);
     height: 510px;
-    width: 160px; }
-  /* line 683, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    width: 8.33%;
+    color: white; }
+    /* line 708, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    .user-expanded ul {
+      display: block;
+      text-align: justify;
+      clear: both;
+      overflow: hidden;
+      padding-left: 0px;
+      font-size: 15px;
+      font-weight: 500; }
+    /* line 718, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    .user-expanded li {
+      padding-bottom: 30px; }
+  /* line 724, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .user-area span {
     display: none; }
-  /* line 687, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 728, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   .big-spaceship {
     float: left;
-    width: 1325px;
+    width: 69%;
     height: 510px;
     background-image: url("/images/site/001_assets_M50.png");
     background-repeat: no-repeat;
-    background-size: cover; }
-  /* line 695, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
-  main {
+    background-size: cover;
+    position: relative; }
+    /* line 737, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    .big-spaceship span {
+      position: absolute;
+      height: 100px;
+      width: 75%;
+      bottom: 2px;
+      left: 2px;
+      float: left;
+      padding-top: 20px;
+      text-align: left;
+      color: #00447D;
+      background: rgba(255, 255, 255, 0.9);
+      padding-right: 40px;
+      font-size: 32px;
+      font-weight: 500; }
+    /* line 754, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    .big-spaceship b {
+      background-image: url("/images/site/001_assets_play%20button.png");
+      background-repeat: no-repeat;
+      width: 59px;
+      height: 59px;
+      display: block;
+      margin-right: 30px;
+      margin-left: 15px;
+      float: left; }
+  /* line 766, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .featured {
     display: none; }
-  /* line 699, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 770, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   articles {
     float: right;
     width: 1485px;
     padding-left: 0px;
     padding-right: 0px; }
-    /* line 700, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 771, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     articles .article {
       padding-top: 1em; }
-  /* line 709, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 780, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   advertisements {
     clear: none;
     width: auto; }
-    /* line 713, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 784, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     advertisements .first-advert {
       display: block;
       float: none; }
-    /* line 719, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 790, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     advertisements .second-advert {
       display: block;
       float: none; }
-    /* line 724, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 795, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     advertisements .third-advert {
       display: none; }
-    /* line 727, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 798, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     advertisements img {
       width: auto;
       height: auto;
       margin-top: 0px;
       margin-bottom: 0px; }
-  /* line 736, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  /* line 807, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
   footer {
     clear: both; }
-    /* line 740, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 811, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     footer .footer-image {
       width: 620px;
       height: 417px; }
-    /* line 745, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 816, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     footer .footer-description {
       height: 417px;
       margin-left: 17.5em; }
-      /* line 750, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+      /* line 821, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
       footer .footer-description h1 {
         font-size: 45px;
         padding-left: 8em;
         padding-right: 5em; }
-      /* line 756, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+      /* line 827, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
       footer .footer-description h2 {
         font-size: 31px;
         padding-left: 11.75em; }
-    /* line 763, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    /* line 834, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
     footer .c-text {
       font-size: 23px; }
-  /* line 768, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
-  .top-wrapper {
-    background-color: white;
+  /* line 839, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .container-wrapper {
+    background-color: white; }
+  /* line 844, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .containter-wrapper::after {
+    background-color: black;
+    height: 200px;
+    width: 100%; }
+  /* line 850, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .app-bar-container {
+    max-width: 1920px; }
+  /* line 854, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .app-bar {
+    background-color: white; }
+  /* line 858, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .base, p, ul, ol {
+    font-size: 27px; }
+  /* line 862, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  ul li {
+    padding-left: 30px;
+    padding-right: 30px; }
+  /* line 867, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  main {
+    max-width: 1920px; }
+  /* line 870, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  footer {
+    max-width: 1920px; }
+  /* line 873, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  footwrapper {
+    background-color: #E6E6E6;
     width: 100%;
-    overflow: hidden; } }
+    display: block;
+    overflow: hidden; }
+  /* line 880, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .article {
+    float: right;
+    padding-right: 0;
+    padding-left: 2em; }
+    /* line 885, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+    .article h1 {
+      padding-left: 0.3em; }
+  /* line 889, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  main {
+    margin-bottom: 0px; }
+  /* line 893, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .head-items {
+    z-index: 1000; }
+  /* line 897, D:/Responsive/responsive2/htmlcss/app/styles/main.scss */
+  .app-bar-container {
+    z-index: 100; } }
 
 /*# sourceMappingURL=main.css.map */
